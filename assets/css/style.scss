@@ -2,29 +2,29 @@
 
 /* Mühendis Dayanışması - Cayman + Custom CSS */
 
-/* CSS Değişkenleri - Yüksek Kontrast */
+/* CSS Değişkenleri - Modern Soft Palette */
 :root {
-  --primary-color: #1a252f;      /* Çok koyu mavi - maksimum kontrast */
-  --secondary-color: #2c5aa0;     /* Orta koyu mavi - kontrast artırıldı */
-  --accent-color: #a93226;        /* Koyu kırmızı - kontrast artırıldı */
-  --success-color: #1e8449;
-  --text-color: #1a252f;          /* Ana text rengi - çok koyu */
-  --text-light: #34495e;          /* İkincil text rengi - orta koyu */
+  --primary-color: #4a5568;       /* Soft charcoal - modern gri */
+  --secondary-color: #5d7a9b;     /* Soft steel blue - zarif mavi */
+  --accent-color: #e76f51;        /* Soft coral - sıcak accent */
+  --success-color: #48bb78;       /* Soft green */
+  --text-color: #2d3748;          /* Ana text rengi - soft dark */
+  --text-light: #718096;          /* İkincil text rengi - medium gray */
   --bg-color: #ffffff;
-  --bg-light: #f8f9fa;            /* Açık arkaplan */
-  --bg-section: #ecf0f1;          /* Section arkaplanları */
-  --border-color: #bdc3c7;        /* Border rengi */
-  --border-radius: 8px;
-  --shadow: 0 2px 10px rgba(26, 37, 47, 0.15);
+  --bg-light: #f7fafc;            /* Açık arkaplan - daha soft */
+  --bg-section: #edf2f7;          /* Section arkaplanları - subtle */
+  --border-color: #e2e8f0;        /* Border rengi - çok subtle */
+  --border-radius: 12px;          /* Daha rounded */
+  --shadow: 0 4px 12px rgba(74, 85, 104, 0.08);  /* Soft shadow */
   --mobile-padding: 15px;
   --touch-target: 44px;
   --mobile-font-base: 16px;
   
-  /* Kontrast kontrollü renkler - maksimum fark */
-  --text-on-light: #1a252f;       /* Açık arkaplan üzerinde çok koyu text */
+  /* Kontrast kontrollü renkler - soft ama okunabilir */
+  --text-on-light: #2d3748;       /* Açık arkaplan üzerinde soft koyu text */
   --text-on-dark: #ffffff;        /* Koyu arkaplan üzerinde beyaz text */
-  --link-color: #2c5aa0;          /* Link rengi - yeterli kontrast */
-  --link-hover: #a93226;          /* Link hover - koyu kırmızı */
+  --link-color: #5d7a9b;          /* Link rengi - soft mavi */
+  --link-hover: #e76f51;          /* Link hover - soft coral */
 }
 
 /* Mobile First Base Styles */
@@ -162,11 +162,12 @@ a:visited {
   border-bottom-color: var(--link-hover);
 }
 .site-nav {
-  background: #fff !important;
-  padding: 0.5rem 0 0.5rem 0;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  padding: 0.3rem 0;
   text-align: center;
-  border-bottom: 2.5px solid var(--secondary-color);
-  box-shadow: 0 4px 16px rgba(44, 90, 160, 0.07);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -183,59 +184,72 @@ a:visited {
 }
 
 .nav-link {
-  color: var(--secondary-color) !important;
+  color: var(--text-color) !important;
   text-decoration: none;
-  padding: 0.65rem 1.4rem;
-  border-radius: 7px 7px 0 0;
-  background: #f8f9fa;
-  font-weight: 700;
-  font-size: 1.08rem;
-  letter-spacing: 0.02em;
-  transition: color 0.15s, background 0.15s, border-bottom 0.15s, box-shadow 0.15s;
-  min-width: 90px;
+  padding: 0.4rem 1rem;
+  border-radius: var(--border-radius);
+  background: transparent;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  min-width: 80px;
   text-align: center;
-  margin: 0 0.3rem;
-  border-bottom: 3px solid transparent;
-  box-shadow: 0 2px 8px rgba(44, 90, 160, 0.04);
+  margin: 0 0.2rem;
+  border: 1px solid transparent;
   position: relative;
 }
 
 .nav-link:hover {
-  background: #fff;
+  background: var(--bg-light);
   color: var(--accent-color) !important;
-  border-bottom: 3px solid var(--accent-color);
+  border-color: var(--border-color);
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(44, 90, 160, 0.09);
-  z-index: 2;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
 }
   /* Ana sayfa linki için özel vurgulu stil */
 .nav-link.nav-home {
   color: var(--accent-color) !important;
-  font-weight: 800;
-  background: #fff;
-  border-bottom: 3px solid var(--accent-color);
+  font-weight: 600;
+  background: var(--bg-light);
+  border-color: var(--accent-color);
 }
 
 /* Mobile navigation */
 @media (max-width: 768px) {
+  .site-nav {
+    padding: 0.25rem 0;
+  }
+  
   .nav-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    padding: 0 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .nav-container::-webkit-scrollbar {
+    display: none;
   }
   
   .nav-link {
-    padding: 1rem;
-    font-size: 0.85rem;
-    min-width: auto;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    min-width: 70px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .nav-container {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+  .nav-link {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.75rem;
+    min-width: 60px;
   }
 }
 
@@ -334,23 +348,23 @@ li > *:first-child {
   flex-shrink: 0;
 }
 
-/* Butonlar - Mobile First */
+/* Butonlar - Modern Design */
 .btn {
   display: inline-block;
-  padding: 14px 24px;
-  margin: 8px;
+  padding: 12px 20px;
+  margin: 6px;
   text-decoration: none;
   border-radius: var(--border-radius);
-  font-weight: bold;
-  transition: all 0.3s ease;
+  font-weight: 500;
+  transition: all 0.2s ease;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   text-align: center;
   min-height: var(--touch-target);
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: 0.95rem;
+  line-height: 1.3;
   position: relative;
-  overflow: hidden;
+  box-shadow: var(--shadow);
   
   /* Mobile touch feedback */
   -webkit-user-select: none;
@@ -360,25 +374,12 @@ li > *:first-child {
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: translateY(1px);
 }
 
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  background: rgba(255,255,255,0.3);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
-
-.btn:active::before {
-  width: 300px;
-  height: 300px;
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(74, 85, 104, 0.15);
 }
 
 .btn-primary {
@@ -388,9 +389,9 @@ li > *:first-child {
 }
 
 .btn-primary:hover {
-  background-color: transparent !important;
-  color: var(--accent-color) !important;
-  border-color: var(--accent-color) !important;
+  background-color: #d65a3e !important;
+  color: white !important;
+  border-color: #d65a3e !important;
 }
 
 .btn-secondary {
@@ -400,23 +401,27 @@ li > *:first-child {
 }
 
 .btn-secondary:hover {
-  background-color: transparent !important;
-  color: var(--secondary-color) !important;
-  border-color: var(--secondary-color) !important;
+  background-color: #4a6788 !important;
+  color: white !important;
+  border-color: #4a6788 !important;
 }
 
-/* Mobile: hover durumlarını devre dışı bırak */
+/* Mobile: touch-friendly adjustments */
 @media (max-width: 768px) {
-  .btn:hover {
-    background-color: var(--accent-color) !important;
-    color: white !important;
-    border-color: var(--accent-color) !important;
+  .btn {
+    padding: 14px 20px;
+    font-size: 1rem;
+    margin: 8px 4px;
+    min-height: 48px;
   }
   
-  .btn-secondary:hover {
-    background-color: var(--secondary-color) !important;
-    color: white !important;
-    border-color: var(--secondary-color) !important;
+  .btn:hover {
+    transform: none;
+    box-shadow: var(--shadow);
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
   }
 }
 
