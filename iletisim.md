@@ -8,42 +8,42 @@ description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 
 {% include navigation.html %}
 
-## Kampanya Hakkında Bilgi Almak İçin
+## <i class="fas fa-info-circle"></i> Kampanya Hakkında Bilgi Almak İçin
 
-**E-posta:** Gmail'den muhendisdayanismasi adresine ulaşabilirsiniz
+**<i class="fas fa-envelope"></i> E-posta:** Gmail'den muhendisdayanismasi adresine ulaşabilirsiniz 📧
 
 ---
 
-## 🤝 Kampanyaya Destek Olmak İstiyorum
+## <i class="fas fa-handshake"></i> Kampanyaya Destek Olmak İstiyorum
 
 Mühendis Dayanışması kampanyasına destek olmak istiyorsanız:
 
-- **Manifestoyu okuyun:** [Temel ilke ve taleplerimizi](/manifesto/) inceleyin
-- **Sosyal medyada paylaşın:** Kampanya hazır olduğunda duyurularımızı takip edin
-- **Çevrenizdeki meslektaşlarınızla konuşun:** Bu hareketin yaygınlaşması için
+- <i class="fas fa-scroll"></i> **Manifestoyu okuyun:** [Temel ilke ve taleplerimizi](/manifesto/) inceleyin
+- <i class="fas fa-share-alt"></i> **Sosyal medyada paylaşın:** Kampanya hazır olduğunda duyurularımızı takip edin
+- <i class="fas fa-users"></i> **Çevrenizdeki meslektaşlarınızla konuşun:** Bu hareketin yaygınlaşması için
 
 ---
 
-## 🔍 Sık Sorulan Sorular
+## <i class="fas fa-question-circle"></i> Sık Sorulan Sorular
 
-Kampanya hakkında merak ettikleriniz için [SSS sayfamızı](/sss/) ziyaret edebilirsiniz.
+Kampanya hakkında merak ettikleriniz için [SSS sayfamızı](/sss/) ziyaret edebilirsiniz. 🤔
 
 ---
 
-## 📋 Yasal ve Teknik Sorular
+## <i class="fas fa-gavel"></i> Yasal ve Teknik Sorular
 
 Kampanyamızın hukuki dayanakları ve referansları hakkında bilgi almak için [Referanslar sayfamızı](/referanslar/) inceleyebilirsiniz.
 
 ---
 
-## 📍 Kampanya Durumu
+## <i class="fas fa-calendar-alt"></i> Kampanya Durumu
 
-**Şu anda:** Kampanya hazırlık aşamasında
+**Şu anda:** Aktif kampanya dönemi 🚀
 
 Detaylı bilgi için [yakında sayfamızı](/yakinda/) ziyaret edin.
 
 ---
 
-**Not:** Bu bir gönüllü dayanışma hareketidir. Tüm iletişimlerimiz şeffaf ve açık kaynaklı prensiplere dayanır.
+**Not:** Bu bir gönüllü dayanışma hareketidir. Tüm iletişimlerimiz şeffaf ve açık kaynaklı prensiplere dayanır. 💚
 
-**#MühendisDayanışması #BuEmekYalnızDeğil**
+**#MühendisDayanışması #BuEmekYalnızDeğil** ✊

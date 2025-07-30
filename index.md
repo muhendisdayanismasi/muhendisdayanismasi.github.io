@@ -124,11 +124,11 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktad�
   </div>
   
   <div id="paylasim-mesaj" class="paylasim-mesaj">
-    <i class="fas fa-arrow-up"></i> Bir platform seçin, mesaj otomatik oluşsun
+    ☝️ Bir platform seçin, mesaj otomatik oluşsun
   </div>
   
   <div class="paylasim-bilgi">
-    <i class="fas fa-sync-alt"></i> Her tıklamada farklı mesaj • <i class="fas fa-clipboard"></i> Otomatik kopyalanır • <i class="fas fa-calendar-day"></i> Bugüne özel içerik
+    🔄 Her tıklamada farklı mesaj • 📋 Otomatik kopyalanır • 🎯 Bugüne özel içerik
   </div>
 </div>
 
@@ -138,29 +138,29 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktad�
 <script src="/assets/js/paylasim.js"></script>
 
 <p style="text-align: center; margin-top: 1rem;">
-  <em>Sosyal medya hesaplarımız yakında aktif olacak. 
+  <em>Sosyal medya hesaplarımız yakında aktif olacak. 🚀 
   <a href="/yakinda/">Detaylar için tıklayın →</a></em>
 </p>
 
 ---
 
-## ✅ Bu Hareket Neden Gerekli?
+## <i class="fas fa-check-circle"></i> Bu Hareket Neden Gerekli?
 
-**Çünkü biz de emek veriyoruz. Biz de hak istiyoruz.**
+**Çünkü biz de emek veriyoruz. Biz de hak istiyoruz.** 💪
 
 Bu kampanya; mühendislerin, mimarların ve teknik uzmanların daha adil, şeffaf ve insan onuruna yakışır koşullarda çalışması için hazırlanmaktadır.
 
 Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir.
 
-**📍 Şu anda:** Aktif kampanya dönemi - [Detaylar için yakında sayfasını ziyaret edin](/yakinda/)
+**<i class="fas fa-info-circle"></i> Şu anda:** Aktif kampanya dönemi - [Detaylar için yakında sayfasını ziyaret edin](/yakinda/)
 
-**📧 İletişim:** [İletişim sayfamızı ziyaret edin](/iletisim/)
+**<i class="fas fa-envelope"></i> İletişim:** [İletişim sayfamızı ziyaret edin](/iletisim/)
 
 **Hakkın olanı almak için ses ver.**  
-**#MühendisDayanışması #BuEmekYalnızDeğil**
+**#MühendisDayanışması #BuEmekYalnızDeğil** ✊
 
 <div class="swipe-hint">
-  📱 <strong>Mobil Kullanıcılar:</strong> Paylaşım butonlarını kullanarak kampanyayı sosyal medyada yaygınlaştırabilirsiniz
+  <i class="fas fa-mobile-alt"></i> <strong>Mobil Kullanıcılar:</strong> Paylaşım butonlarını kullanarak kampanyayı sosyal medyada yaygınlaştırabilirsiniz
 </div>
 
 ---
