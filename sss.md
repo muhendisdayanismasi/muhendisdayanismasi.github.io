@@ -19,15 +19,15 @@ TMMOB bir **meslek odasıdır**, sendika değil. Toplu sözleşme hakkı yoktur.
 ---
 
 ### <i class="fas fa-question-circle"></i> Mühendisler beyaz yakalı sayılıyor, sendikaya gerek var mı?
-Beyaz yaka olmak, **hak talep etmeye engel değil**. Bir çok Avrupa ülkesinde mühendis sendikaları vardır.
+Beyaz yaka olmak, **hak talep etmeye engel değil**. Bir çok Avrupa ülkesinde mühendis sendikaları vardır. 🌍
 
 ---
 
 ### <i class="fas fa-question-circle"></i> Ama maaşlarımız fena sayılmaz, bu kampanya fazla mı iddialı?
 Sorun sadece maaş değil:
-- Fazla mesailer, mobbing, kariyer tıkanmaları, sessizlik dayatması çok yaygın.
+- <i class="fas fa-clock"></i> Fazla mesailer, mobbing, kariyer tıkanmaları, sessizlik dayatması çok yaygın.
 - Şeffaflık, temsil hakkı ve saygı eksik.
-- Yeni mezunlar çöküyor, tecrübeliler susuyor.
+- <i class="fas fa-graduation-cap"></i> Yeni mezunlar çöküyor, tecrübeliler susuyor.
 
 ---
 
@@ -59,6 +59,6 @@ Bu bir farkındalık hareketidir. Amaç:
 ---
 
 ### <i class="fas fa-question-circle"></i> Bu kampanya nerede son bulacak?
-Kampanyanın sonu yok. Ama hedefi var:
+Kampanyanın sonu yok. Ama hedefi var: 🚀
 **"Mühendislerin birlikte hareket edebildiği, anayasal haklara sahip, katılımcı bir yapı kurmak."** 🎯
 

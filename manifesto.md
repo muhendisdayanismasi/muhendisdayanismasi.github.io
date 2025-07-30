@@ -8,11 +8,11 @@ permalink: /manifesto/
 
 {% include navigation.html %}
 
-Biz mühendisler; geleceği tasarlayan, sistemleri inşa eden, altyapıyı kuran, dijitali yöneten, hayatın her alanına dokunan insanlarız. Ama çoğu zaman kendi hayatlarımızın kontrolünü elimizde tutamıyoruz.
+Biz mühendisler; geleceği tasarlayan, <i class="fas fa-cogs"></i> sistemleri inşa eden, altyapıyı kuran, dijitali yöneten, <i class="fas fa-globe"></i> hayatın her alanına dokunan insanlarız. Ama çoğu zaman kendi hayatlarımızın kontrolünü elimizde tutamıyoruz.
 
-Bugün çok sayıda mühendis; uzun mesailere, belirsiz kariyer yollarına, adaletsiz maaş dağılımına ve etkisizleştirilmiş meslek odalarına mahkûm edilmiştir. Beyaz yakalı sıfatı altında gri gerçekler yaşamaktayız.
+Bugün çok sayıda mühendis; <i class="fas fa-clock"></i> uzun mesailere, belirsiz kariyer yollarına, <i class="fas fa-balance-scale"></i> adaletsiz maaş dağılımına ve etkisizleştirilmiş meslek odalarına mahkûm edilmiştir. Beyaz yakalı sıfatı altında gri gerçekler yaşamaktayız.
 
-Bizler, sadece sorunların değil, çözümlerin de mühendisiyiz.
+Bizler, sadece sorunların değil, çözümlerin de mühendisiyiz. 🔧
 
 Bu nedenle sesimizi duyuruyoruz:
 
@@ -43,7 +43,7 @@ Bu nedenle sesimizi duyuruyoruz:
 
 ---
 
-Biz bu bildiriyi, sesi duyulmayan mühendislerin ortak sesi olarak ilan ediyoruz.
+Biz bu bildiriyi, sesi duyulmayan mühendislerin ortak sesi olarak ilan ediyoruz. 🗣️
 
 Kampanyamız siyasi değil, etik bir dayanışma çağrısıdır.
 

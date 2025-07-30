@@ -8,14 +8,14 @@ description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görü
 
 <i class="fas fa-fist-raised"></i> **Bizler, Türkiye'nin dört bir yanında çalışan mühendisler olarak sesimizi duyurmak istiyoruz.**
 
-Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma koşullarımızı tasarlayamıyoruz. Belirsiz maaş politikaları, uzun mesailer, kariyerde tıkanmışlık ve sessizleştirilmiş meslek yapıları artık kabul edilemez.
+Her gün binlerce <i class="fas fa-cogs"></i> sistem, proje, altyapı geliştiriyoruz ama kendi çalışma koşullarımızı tasarlayamıyoruz. Belirsiz maaş politikaları, <i class="fas fa-clock"></i> uzun mesailer, kariyerde tıkanmışlık ve sessizleştirilmiş meslek yapıları artık kabul edilemez.
 
 ## <i class="fas fa-bullseye"></i> Kampanyaya Katıl
 
 <div class="call-to-action">
   <div class="cta-content">
     <h3><i class="fas fa-fist-raised"></i> Harekete Katıl!</h3>
-    <p>Mühendis haklarını birlikte savunalım. Sesini duyur, değişimin parçası ol!</p>
+    <p>Mühendis haklarını birlikte savunalım. Sesini duyur, değişimin parçası ol! 🤝</p>
   </div>
   
   <div class="cta-buttons">
@@ -148,7 +148,7 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktad�
 
 **Çünkü biz de emek veriyoruz. Biz de hak istiyoruz.** 💪
 
-Bu kampanya; mühendislerin, mimarların ve teknik uzmanların daha adil, şeffaf ve insan onuruna yakışır koşullarda çalışması için hazırlanmaktadır.
+Bu kampanya; <i class="fas fa-hard-hat"></i> mühendislerin, mimarların ve teknik uzmanların daha adil, şeffaf ve insan onuruna yakışır koşullarda çalışması için hazırlanmaktadır. 🌟
 
 Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir.
 
