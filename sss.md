@@ -26,12 +26,12 @@ Beyaz yaka olmak, **hak talep etmeye engel değil**. Bir çok Avrupa ülkesinde 
 Sorun sadece maaş değil:
 - Fazla mesailer, mobbing, kariyer tıkanmaları, sessizlik dayatması çok yaygın.
 - Şeffaflık, temsil hakkı ve saygı eksik.
-- Yeni mezunlar çöküyor, tecrûeliler susuyor.
+- Yeni mezunlar çöküyor, tecrübeliler susuyor.
 
 ---
 
 ### ❓ Sendika yasal olarak mümkün mü?
-Evet. Anayasa’nın 51. maddesi çalışanlara sendika kurma hakkı tanır.
+**Evet.** Anayasa’nın 51. maddesi çalışanlara sendika kurma hakkı tanır.
 Mühendisler, kamu çalışanı olmayan profesyoneller olarak **bağımsız sendika kurabilir.**
 
 ---

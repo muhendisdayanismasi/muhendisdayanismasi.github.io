@@ -13,10 +13,10 @@ Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma k
 ## 🎯 Kampanyaya Katıl
 
 <div class="call-to-action">
-  <a href="#" class="btn btn-primary" target="_blank" rel="noopener">
-    📝 Change.org'da İmzala
+  <a href="/yakinda/" class="btn btn-primary">
+    � Kampanya Hazırlanıyor
   </a>
-  <a href="manifesto.html" class="btn btn-secondary">
+  <a href="/manifesto/" class="btn btn-secondary">
     📜 Manifestoyu Oku
   </a>
 </div>
@@ -31,7 +31,7 @@ Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma k
 - **Kariyer planlamasında çalışanın söz hakkı**
 - **Anayasal haklarla güvence altına alınmış mühendis sendikası kurma hakkı**
 
-Bu talepler, [Mühendis Dayanışması Manifestosu](manifesto.html)'na dayanmaktadır.
+Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktadır.
 
 ---
 
@@ -39,53 +39,62 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](manifesto.html)'na dayanmakt
 
 <div class="document-grid">
   <div class="document-card">
-    <h3><a href="manifesto.html">📜 Manifesto</a></h3>
+    <h3><a href="/manifesto/">📜 Manifesto</a></h3>
     <p>Mühendis Dayanışması'nın temel ilke ve hedefleri</p>
   </div>
   
   <div class="document-card">
-    <h3><a href="sss.html">❓ Sık Sorulan Sorular</a></h3>
+    <h3><a href="/sss/">❓ Sık Sorulan Sorular</a></h3>
     <p>Kampanya hakkında merak edilenler</p>
   </div>
   
   <div class="document-card">
-    <h3><a href="referanslar.html">🔗 Referanslar</a></h3>
+    <h3><a href="/referanslar/">🔗 Referanslar</a></h3>
     <p>Tüm iddialarımızın kaynak belgeleri</p>
   </div>
   
   <div class="document-card">
-    <h3><a href="kampanya_cercevesi.html">🎯 Kampanya Çerçevesi</a></h3>
+    <h3><a href="/kampanya-cercevesi/">🎯 Kampanya Çerçevesi</a></h3>
     <p>Stratejik amaç ve vizyonumuz</p>
   </div>
 </div>
 
 ---
 
-## 📢 Sosyal Medyada Paylaş
+## 📢 Kampanya Hazırlanıyor
 
 <div class="social-share">
-  <a href="https://twitter.com/intent/tweet?text=Mühendis%20Dayanışması%20kampanyasına%20destek%20ol!%20%23MühendisDayanışması%20%23BuEmekYalnızDeğil&url=https://muhendisdayanismasi.github.io" target="_blank" class="social-btn twitter">
-    🐦 Twitter'da Paylaş
+  <a href="/yakinda/" class="social-btn twitter">
+    � Twitter (Yakında)
   </a>
   
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://muhendisdayanismasi.github.io" target="_blank" class="social-btn linkedin">
-    💼 LinkedIn'de Paylaş
+  <a href="/yakinda/" class="social-btn linkedin">
+    � LinkedIn (Yakında)
   </a>
   
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://muhendisdayanismasi.github.io" target="_blank" class="social-btn facebook">
-    📘 Facebook'ta Paylaş
+  <a href="/yakinda/" class="social-btn facebook">
+    � Instagram (Yakında)
   </a>
 </div>
 
+<p style="text-align: center; margin-top: 1rem;">
+  <em>Sosyal medya hesaplarımız yakında aktif olacak. 
+  <a href="/yakinda/">Detaylar için tıklayın →</a></em>
+</p>
+
 ---
 
-## ✅ Neden Bu Kampanya?
+## ✅ Bu Hareket Neden Gerekli?
 
 **Çünkü biz de emek veriyoruz. Biz de hak istiyoruz.**
 
-Bu kampanya; mühendislerin, mimarların ve teknik uzmanların daha adil, şeffaf ve insan onuruna yakışır koşullarda çalışması için başlatılmıştır.
+Bu kampanya; mühendislerin, mimarların ve teknik uzmanların daha adil, şeffaf ve insan onuruna yakışır koşullarda çalışması için hazırlanmaktadır.
 
 Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir.
+
+**📍 Şu anda:** Kampanya hazırlık aşamasında - [Detaylar için yakında sayfasını ziyaret edin](/yakinda/)
+
+**📧 İletişim:** [İletişim sayfamızı ziyaret edin](/iletisim/)
 
 **Hakkın olanı almak için ses ver.**  
 **#MühendisDayanışması #BuEmekYalnızDeğil**

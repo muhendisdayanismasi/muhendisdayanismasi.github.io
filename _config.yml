@@ -5,26 +5,28 @@ baseurl: ""
 url: "https://muhendisdayanismasi.github.io"
 
 # GitHub Pages tema
-theme: minima
-# remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/minima@v2.5.0
+# theme: minima
 
 # Site ayarları
 lang: tr-TR
 timezone: Europe/Istanbul
 
-# Sosyal medya
+# Sosyal medya ve iletişim
 github_username: muhendisdayanismasi
-twitter_username: muhendis_dayanismasi
-linkedin_username: muhendis-dayanismasi
+# email: Gmail'den muhendisdayanismasi olarak ulaşabilirsiniz (manuel contact için)
+# Sosyal medya hesapları yakında aktif olacak
+# twitter_username: TBD
+# linkedin_username: TBD
 
 # Navigasyon menüsü
 header_pages:
-  - index.md
   - manifesto.md
   - sss.md
   - referanslar.md
   - kampanya_cercevesi.md
-  - yayilim_stratejisi.md
+  - iletisim.md
+  - yakinda.md
 
 # Plugins
 plugins:
