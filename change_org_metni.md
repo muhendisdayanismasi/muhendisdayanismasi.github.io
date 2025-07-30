@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Change.org Kampanya Metni"
 description: "Mühendis Dayanışması Change.org petition metni"
 permalink: /change-org-metni/
 ---
+
+{% include navigation.html %}
 
 # Mühendis Dayanışması Kampanyası - Change.org Metni
 

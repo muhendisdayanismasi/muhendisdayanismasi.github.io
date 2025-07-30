@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Referanslar ve Açıklamalar"
 nav_title: "Referanslar"
 description: "Mühendis Dayanışması iddialarının dayandığı kaynaklar ve belgeler"
 permalink: /referanslar/
 ---
+
+{% include navigation.html %}
 
 # Referanslar ve Açıklamalar
 

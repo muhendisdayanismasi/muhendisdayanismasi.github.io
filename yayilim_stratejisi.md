@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Yayılım Stratejisi"
 description: "Kampanyanın sosyal medya ve dijital tanıtım planı"
 permalink: /yayilim-stratejisi/
 ---
+
+{% include navigation.html %}
 
 # Yayılım Stratejisi ve Tanıtım Belgeleri
 

@@ -4,6 +4,9 @@ description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görü
 baseurl: ""
 url: "https://muhendisdayanismasi.github.io"
 
+# Repository information for GitHub Pages
+repository: "muhendisdayanismasi/muhendisdayanismasi.github.io"
+
 # GitHub Pages supported theme
 remote_theme: pages-themes/cayman@v0.2.0
 
