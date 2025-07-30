@@ -124,3 +124,18 @@ Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çal
 
 **Hakkın olanı almak için ses ver.**  
 **#MühendisDayanışması #BuEmekYalnızDeğil**
+
+---
+
+<div style="font-size: 0.8em; color: #666; text-align: center; margin-top: 2rem;">
+  <details>
+    <summary>🔧 Site Test Bilgileri (Geliştirme)</summary>
+    <div style="margin-top: 1rem; font-family: monospace;">
+      <strong>Son güncelleme:</strong> {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}<br>
+      <strong>Build ID:</strong> {{ site.github.build_revision | slice: 0, 7 }}<br>
+      <strong>Test sayfası:</strong> <a href="/test/">/test/</a><br>
+      <strong>Status API:</strong> <a href="/api/status.json">/api/status.json</a><br>
+      <strong>Cache buster:</strong> {{ "now" | date: "%s" }}
+    </div>
+  </details>
+</div>

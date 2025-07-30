@@ -1,0 +1,18 @@
+---
+layout: null
+---
+{
+  "status": "active",
+  "last_updated": "{{ site.time | date: '%Y-%m-%d %H:%M:%S %Z' }}",
+  "build_time": "{{ "now" | date: '%Y-%m-%d %H:%M:%S %Z' }}",
+  "version": "{{ site.github.build_revision | slice: 0, 7 }}",
+  "commit": "{{ site.github.build_revision }}",
+  "branch": "{{ site.github.source.branch }}",
+  "environment": "{{ site.github.environment }}",
+  "features": {
+    "paylasim_sistemi": true,
+    "favicon": true,
+    "responsive": true
+  },
+  "cache_buster": {{ "now" | date: "%s" }}
+}
