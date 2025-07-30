@@ -310,12 +310,28 @@ ul, ol {
   padding-left: 1.8rem;
 }
 
-
 li {
   margin-bottom: 0.8rem;
   line-height: 1.7;
   color: var(--text-color) !important;
   background: transparent !important;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* Emoji'li liste öğeleri için özel styling */
+li:has(> :first-child:is(span[style*="font-size"])) {
+  align-items: center;
+}
+
+/* Liste öğelerindeki emojilerin tutarlı boyutu */
+li::marker {
+  content: '';
+}
+
+li > *:first-child {
+  flex-shrink: 0;
 }
 
 /* Butonlar - Mobile First */

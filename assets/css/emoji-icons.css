@@ -1,0 +1,71 @@
+/* 🎨 Emoji & İkon Tutarlılık CSS */
+
+/* Emoji boyut standardizasyonu */
+.emoji-icon {
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+
+/* Başlıklardaki emojiler */
+h1 .emoji-icon, h2 .emoji-icon, h3 .emoji-icon {
+  font-size: 1em;
+  margin-right: 0.3em;
+}
+
+/* Liste öğelerindeki emojiler */
+li .emoji-icon {
+  font-size: 1.1em;
+  margin-right: 0.4em;
+  flex-shrink: 0;
+}
+
+/* Platform butonlarındaki ikonlar */
+.platform-buton .ikon {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 0.3em;
+  line-height: 1;
+}
+
+/* CTA istatistiklerindeki emojiler */
+.stat-item strong {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+/* Mobil optimizasyon */
+@media (max-width: 768px) {
+  .emoji-icon {
+    font-size: 1.1em;
+  }
+  
+  .platform-buton .ikon {
+    font-size: 1.3em;
+  }
+  
+  .stat-item strong {
+    font-size: 1.1em;
+  }
+}
+
+/* Emoji hover efektleri */
+.emoji-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Accessibility - emojiler için alt text desteği */
+.emoji-icon[aria-label]::before {
+  content: attr(aria-label);
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

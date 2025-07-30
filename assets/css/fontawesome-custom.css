@@ -1,0 +1,121 @@
+/* 🎨 Font Awesome İkon Özelleştirmeleri */
+
+/* Genel ikon stilleri */
+.fas, .fab, .far {
+  margin-right: 0.5rem;
+  color: inherit;
+  vertical-align: middle;
+}
+
+/* Başlıklardaki ikonlar */
+h1 .fas, h1 .fab, h1 .far,
+h2 .fas, h2 .fab, h2 .far,
+h3 .fas, h3 .fab, h3 .far {
+  margin-right: 0.7rem;
+  color: var(--secondary-color);
+  font-size: 0.9em;
+}
+
+/* Liste öğelerindeki ikonlar */
+li .fas, li .fab, li .far {
+  margin-right: 0.8rem;
+  color: var(--accent-color);
+  font-size: 1.1em;
+  flex-shrink: 0;
+  width: 1.2em;
+  text-align: center;
+}
+
+/* Platform butonlarındaki ikonlar */
+.platform-buton .ikon .fas,
+.platform-buton .ikon .fab {
+  margin: 0;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+/* CTA butonlarındaki ikonlar */
+.btn-icon .fas, .btn-icon .fab {
+  margin: 0;
+  font-size: 1.8em;
+  color: inherit;
+}
+
+/* Stat ikonları */
+.stat-item strong .fas {
+  margin-right: 0.4em;
+  font-size: inherit;
+  color: var(--accent-color);
+}
+
+/* Paylaşım widget'ındaki ikonlar */
+.paylasim-baslik .fas {
+  margin-right: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.paylasim-bilgi .fas {
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+/* Hover efektleri */
+.document-card h3:hover .fas,
+.nav-link:hover .fas,
+.btn:hover .fas {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Responsif düzenlemeler */
+@media (max-width: 768px) {
+  h1 .fas, h2 .fas, h3 .fas {
+    margin-right: 0.5rem;
+    font-size: 0.85em;
+  }
+  
+  li .fas {
+    margin-right: 0.6rem;
+    font-size: 1em;
+  }
+  
+  .btn-icon .fas {
+    font-size: 1.5em;
+  }
+}
+
+/* Accessibility - screen reader desteği */
+.fas[aria-label]::before,
+.fab[aria-label]::before {
+  content: attr(aria-label);
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* İkon animasyonları */
+@keyframes iconPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.icon-pulse {
+  animation: iconPulse 2s infinite;
+}
+
+/* Özel platform renkleri */
+.linkedin-buton .fab.fa-linkedin {
+  color: #0077b5;
+}
+
+.twitter-buton .fab.fa-twitter {
+  color: #1da1f2;
+}
+
+.whatsapp-buton .fab.fa-whatsapp {
+  color: #25d366;
+}
