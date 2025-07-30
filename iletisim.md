@@ -6,7 +6,7 @@ permalink: /iletisim/
 description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 ---
 
-{% include navigation.html %}
+
 
 ## <i class="fas fa-info-circle"></i> Kampanya Hakkında Bilgi Almak İçin
 

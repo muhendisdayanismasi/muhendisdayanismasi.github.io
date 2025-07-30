@@ -6,7 +6,7 @@ description: "Mühendislerin sosyal ve ekonomik haklarına dair temel ilkeler ve
 permalink: /manifesto/
 ---
 
-{% include navigation.html %}
+
 
 Biz mühendisler; geleceği tasarlayan, <i class="fas fa-cogs"></i> sistemleri inşa eden, altyapıyı kuran, dijitali yöneten, <i class="fas fa-globe"></i> hayatın her alanına dokunan insanlarız. Ama çoğu zaman kendi hayatlarımızın kontrolünü elimizde tutamıyoruz.
 

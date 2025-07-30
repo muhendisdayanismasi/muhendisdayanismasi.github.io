@@ -6,7 +6,7 @@ description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---
 
-{% include navigation.html %}
+
 
 <i class="fas fa-tools"></i> **Mühendis Dayanışması kampanyası şu anda hazırlanma aşamasındadır.**
 

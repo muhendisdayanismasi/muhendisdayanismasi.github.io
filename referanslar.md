@@ -6,7 +6,7 @@ description: "Mühendis Dayanışması iddialarının dayandığı kaynaklar ve 
 permalink: /referanslar/
 ---
 
-{% include navigation.html %}
+
 
 # <i class="fas fa-book-open"></i> Referanslar ve Açıklamalar
 

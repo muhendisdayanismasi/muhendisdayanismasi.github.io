@@ -6,7 +6,7 @@ description: "Mühendis Dayanışması kampanyasının stratejik amaç ve vizyon
 permalink: /kampanya-cercevesi/
 ---
 
-{% include navigation.html %}
+
 
 # <i class="fas fa-bullseye"></i> Mühendis Dayanışması Kampanyası: Stratejik Çerçeve
 
