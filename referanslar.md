@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Referanslar ve Açıklamalar"
-description: "Kampanya iddialarının kaynak belgeleri ve açıklamaları"
+nav_title: "Referanslar"
+description: "Mühendis Dayanışması iddialarının dayandığı kaynaklar ve belgeler"
 permalink: /referanslar/
 ---
 

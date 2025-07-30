@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Mühendis Dayanışması Manifestosu"
+nav_title: "Manifesto"
 description: "Mühendislerin sosyal ve ekonomik haklarına dair temel ilkeler ve hedefler"
 permalink: /manifesto/
 ---

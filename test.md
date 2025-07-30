@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Test - Site Güncellenme Durumu"
+nav_title: "Test"
 ---
 
 # 🔧 Site Test Sayfası

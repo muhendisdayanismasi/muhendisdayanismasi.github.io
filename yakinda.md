@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Kampanya Hazırlanıyor"
+nav_title: "Yakında"
 description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---

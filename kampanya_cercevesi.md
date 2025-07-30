@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Kampanya Çerçevesi"
+nav_title: "Çerçeve"
 description: "Mühendis Dayanışması kampanyasının stratejik amaç ve vizyonu"
 permalink: /kampanya-cercevesi/
 ---

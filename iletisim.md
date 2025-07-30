@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "İletişim"
+nav_title: "İletişim"
 permalink: /iletisim/
 description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 ---

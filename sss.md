@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Sık Sorulan Sorular (SSS)"
+nav_title: "SSS"
 description: "Mühendis Dayanışması kampanyası hakkında merak edilen sorular ve cevapları"
 permalink: /sss/
 ---
