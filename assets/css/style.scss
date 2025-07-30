@@ -891,15 +891,9 @@ li {
     padding: 2.5rem 2rem !important;
   }
 }
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-  
-  .site-nav .page-link {
-    padding: 14px 20px;
-    font-size: 1rem;
-  }
-  
+
+/* Paylasim widget mobile styles */
+@media (max-width: 480px) {
   .paylasim-widget {
     padding: 1.2rem;
     margin: 1.5rem 0;
