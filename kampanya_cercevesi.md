@@ -1,6 +1,11 @@
-**Mühendis Dayanışması Kampanyası: Stratejik Çerçeve**
-
 ---
+layout: page
+title: "Kampanya Çerçevesi"
+description: "Mühendis Dayanışması kampanyasının stratejik amaç ve vizyonu"
+permalink: /kampanya-cercevesi/
+---
+
+# Mühendis Dayanışması Kampanyası: Stratejik Çerçeve
 
 ### 🏛️ **1. Amaç ve Vizyon**
 

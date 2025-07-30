@@ -1,6 +1,11 @@
-**Mühendis Dayanışması Kampanyası - Sık Sorulan Sorular (SSS)**
-
 ---
+layout: page
+title: "Sık Sorulan Sorular (SSS)"
+description: "Mühendis Dayanışması kampanyası hakkında merak edilen sorular ve cevapları"
+permalink: /sss/
+---
+
+# Sık Sorulan Sorular (SSS)
 
 ### ❓ Bu kampanya siyasi mi?
 **Hayır.** Kampanya herhangi bir partiyle ilişkili değildir. Hak temellidir. Mühendislerin çalışma koşullarına dair etik ve anayasal taleplerden oluşmaktadır.

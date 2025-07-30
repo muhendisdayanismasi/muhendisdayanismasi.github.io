@@ -1,0 +1,58 @@
+# Mühendis Dayanışması - GitHub Pages Konfigürasyonu
+title: "Mühendis Dayanışması"
+description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür kılmak için başlatılan kampanya"
+baseurl: ""
+url: "https://muhendisdayanismasi.github.io"
+
+# GitHub Pages tema
+theme: minima
+# remote_theme: pages-themes/cayman@v0.2.0
+
+# Site ayarları
+lang: tr-TR
+timezone: Europe/Istanbul
+
+# Sosyal medya
+github_username: muhendisdayanismasi
+twitter_username: muhendis_dayanismasi
+linkedin_username: muhendis-dayanismasi
+
+# Navigasyon menüsü
+header_pages:
+  - index.md
+  - manifesto.md
+  - sss.md
+  - referanslar.md
+  - kampanya_cercevesi.md
+  - yayilim_stratejisi.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build ayarları
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# İçerik ayarları
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# SEO ve meta
+author: "Mühendis Dayanışması"
+logo: /assets/images/logo.png
+
+# Footer
+footer_content: "Mühendis Dayanışması © 2025. Bu proje açık kaynak olarak paylaşılmaktadır."
+
+# Exclude files
+exclude:
+  - TODO.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore

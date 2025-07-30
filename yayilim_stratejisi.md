@@ -1,6 +1,11 @@
-**Mühendis Dayanışması Kampanyası - Yayılım Stratejisi ve Tanıtım Belgeleri**
-
 ---
+layout: page
+title: "Yayılım Stratejisi"
+description: "Kampanyanın sosyal medya ve dijital tanıtım planı"
+permalink: /yayilim-stratejisi/
+---
+
+# Yayılım Stratejisi ve Tanıtım Belgeleri
 
 Bu belge, kampanyanın sosyal medya ve dijital ortamlarda nasıl yayılacağını belirler. Hedef; farkındalık yaratmak, imza toplamak ve dayanışma oluşturmaktır.
 

@@ -1,6 +1,11 @@
-**Mühendis Dayanışması Kampanyası - Referanslar ve Açıklamalar**
-
 ---
+layout: page
+title: "Referanslar ve Açıklamalar"
+description: "Kampanya iddialarının kaynak belgeleri ve açıklamaları"
+permalink: /referanslar/
+---
+
+# Referanslar ve Açıklamalar
 
 Bu belgede kampanyada geçen tüm iddiaların, taleplerin ve kavramların kaynakları yer almakta; her biri açıklamalı ve doğrudan erişilebilir biçimde sunulmaktadır.
 
