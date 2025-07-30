@@ -77,6 +77,23 @@
 .fa-users::before { content: "\f0c0"; }
 .fa-bullhorn::before { content: "\f0a1"; }
 
+/* Newly Added Icons */
+.fa-cogs::before { content: "\f085"; }
+.fa-ban::before { content: "\f05e"; }
+.fa-home::before { content: "\f015"; }
+.fa-briefcase::before { content: "\f0b1"; }
+.fa-file-alt::before { content: "\f15c"; }
+.fa-network-wired::before { content: "\f6ff"; }
+.fa-gavel::before { content: "\f0e3"; }
+.fa-signature::before { content: "\f5b7"; }
+.fa-comments::before { content: "\f086"; }
+.fa-hands-helping::before { content: "\f4c4"; }
+.fa-info-circle::before { content: "\f05a"; }
+.fa-envelope::before { content: "\f0e0"; }
+.fa-mobile-alt::before { content: "\f3cd"; }
+.fa-check-circle::before { content: "\f058"; }
+.fa-calendar-alt::before { content: "\f073"; }
+
 /* Brand Icons */
 .fa-linkedin::before { content: "\f08c"; }
 .fa-twitter::before { content: "\f099"; }
