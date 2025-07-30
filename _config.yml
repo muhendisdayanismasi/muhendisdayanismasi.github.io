@@ -1,12 +1,11 @@
-# Cayman Test Configuration
-# Backup current config
+# GitHub Pages Compatible Configuration
 title: "Mühendis Dayanışması"
 description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür kılmak için başlatılan kampanya"
 baseurl: ""
 url: "https://muhendisdayanismasi.github.io"
 
-# Cayman theme
-theme: cayman
+# GitHub Pages supported theme
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Site ayarları
 lang: tr-TR
