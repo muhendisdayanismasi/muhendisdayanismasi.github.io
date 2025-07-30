@@ -61,21 +61,47 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktad�
 
 ---
 
-## 📢 Kampanya Hazırlanıyor
+## 📱 Kampanyayı Paylaş
 
-<div class="social-share">
-  <a href="/yakinda/" class="social-btn twitter">
-    � Twitter (Yakında)
-  </a>
+<div class="paylasim-widget">
+  <div class="paylasim-baslik">
+    💪 Haklarımız için birlikte ses verelim
+  </div>
   
-  <a href="/yakinda/" class="social-btn linkedin">
-    � LinkedIn (Yakında)
-  </a>
+  <div class="paylasim-butonlar">
+    <button class="platform-buton linkedin-buton" onclick="linkedinPaylas()">
+      <span class="ikon">💼</span>
+      LinkedIn
+    </button>
+    
+    <button class="platform-buton twitter-buton" onclick="twitterPaylas()">
+      <span class="ikon">🐦</span>
+      Twitter
+    </button>
+    
+    <button class="platform-buton whatsapp-buton" onclick="whatsappPaylas()">
+      <span class="ikon">💬</span>
+      WhatsApp
+    </button>
+    
+    <button class="platform-buton genel-buton" onclick="genelPaylas()">
+      <span class="ikon">📋</span>
+      Kopyala
+    </button>
+  </div>
   
-  <a href="/yakinda/" class="social-btn facebook">
-    � Instagram (Yakında)
-  </a>
+  <div id="paylasim-mesaj" class="paylasim-mesaj">
+    ⬆️ Bir platform seçin, mesaj otomatik oluşsun
+  </div>
+  
+  <div class="paylasim-bilgi">
+    🔄 Her tıklamada farklı mesaj • 📋 Otomatik kopyalanır • 🎯 Bugüne özel içerik
+  </div>
 </div>
+
+<link rel="stylesheet" href="/assets/css/paylasim.css">
+<script src="/assets/js/mesaj-havuzu.js"></script>
+<script src="/assets/js/paylasim.js"></script>
 
 <p style="text-align: center; margin-top: 1rem;">
   <em>Sosyal medya hesaplarımız yakında aktif olacak. 

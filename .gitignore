@@ -29,3 +29,6 @@ Thumbs.db
 
 # TODO dosyası (geliştirme aşamasında)
 TODO.md
+
+# Kampanya stratejisi ve internal dökümanlar
+*.idea.md
