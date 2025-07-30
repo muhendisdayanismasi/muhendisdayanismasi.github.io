@@ -2,53 +2,7 @@
 ---
 
 @import "minima";
-
-/* Mühendis Dayanışması - Özel Stiller */
-
-:root {
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e74c3c;
-  --success-color: #27ae60;
-  --text-color: #2c3e50;
-  --bg-color: #ffffff;
-  --light-gray: #ecf0f1;
-}
-
-/* Genel stil ayarları */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-}
-
-/* Call-to-action butonları */
-.call-to-action {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin: 0 8px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.btn-primary {
-  background-color: var(--accent-color);
-  color: white;
-  border: 2px solid var(--accent-color);
-}
-
-.btn-primary:hover {
-  background-color: transparent;
-  color: var(--accent-color);
-}
+@import "custom";
 
 .btn-secondary {
   background-color: var(--secondary-color);
