@@ -125,6 +125,10 @@ Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çal
 **Hakkın olanı almak için ses ver.**  
 **#MühendisDayanışması #BuEmekYalnızDeğil**
 
+<div class="swipe-hint">
+  📱 <strong>Mobil Kullanıcılar:</strong> Paylaşım butonlarını kullanarak kampanyayı sosyal medyada yaygınlaştırabilirsiniz
+</div>
+
 ---
 
 <div style="font-size: 0.8em; color: #666; text-align: center; margin-top: 2rem;">
