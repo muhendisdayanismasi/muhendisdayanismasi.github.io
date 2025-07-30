@@ -618,6 +618,8 @@ li > *:first-child {
   box-shadow: 0 4px 16px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   border: 2px solid transparent !important;
+  background: var(--bg-section) !important;
+  color: var(--primary-color) !important;
 }
 
 .btn-large:hover {
@@ -653,23 +655,23 @@ li > *:first-child {
 
 .btn-primary.btn-large {
   background: linear-gradient(135deg, var(--accent-color), #e74c3c) !important;
-  color: var(--text-on-dark) !important;
+  color: #fff !important;
 }
 
 .btn-primary.btn-large:hover {
   background: linear-gradient(135deg, #e74c3c, var(--accent-color)) !important;
-  color: var(--text-on-dark) !important;
+  color: #fff !important;
   border-color: var(--accent-color) !important;
 }
 
 .btn-secondary.btn-large {
   background: linear-gradient(135deg, var(--secondary-color), #3498db) !important;
-  color: var(--text-on-dark) !important;
+  color: #fff !important;
 }
 
 .btn-secondary.btn-large:hover {
   background: linear-gradient(135deg, #3498db, var(--secondary-color)) !important;
-  color: var(--text-on-dark) !important;
+  color: #fff !important;
   border-color: var(--secondary-color) !important;
 }
 
