@@ -37,13 +37,13 @@ body {
   padding: 0 20px;
 }
 
-/* Header Stiller - Modern Menü */
+/* Header Stiller - Kompakt Menü */
 .site-header {
   background: linear-gradient(135deg, var(--primary-color), #34495e) !important;
   border-top: none !important;
-  border-bottom: 3px solid var(--accent-color) !important;
+  border-bottom: 2px solid var(--accent-color) !important;
   padding: 0 !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -53,105 +53,124 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 20px;
+  padding: 0.5rem 20px;
+  min-height: 60px;
 }
 
 .site-title, .site-title:visited {
   color: white !important;
   font-weight: bold !important;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   text-decoration: none;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
 }
 
 .site-title:hover {
   color: var(--accent-color) !important;
-  transform: scale(1.05);
-  text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
 }
 
-/* Menü Navigasyon */
+/* Menü Navigasyon - Kompakt */
 .site-nav {
   position: relative;
 }
 
 .site-nav .trigger {
   display: flex;
-  gap: 0;
+  gap: 4px;
 }
 
 .site-nav .page-link {
   color: white !important;
-  margin: 0 2px;
+  margin: 0;
   text-decoration: none;
-  padding: 12px 18px;
-  border-radius: 25px;
+  padding: 6px 12px;
+  border-radius: 15px;
   transition: all 0.3s ease;
   font-weight: 500;
-  position: relative;
-  overflow: hidden;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-}
-
-.site-nav .page-link::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: all 0.5s ease;
-}
-
-.site-nav .page-link:hover::before {
-  left: 100%;
+  letter-spacing: 0.3px;
 }
 
 .site-nav .page-link:hover {
   background-color: var(--accent-color) !important;
   color: white !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
+  transform: translateY(-1px);
 }
 
-.site-nav .page-link:active {
-  transform: translateY(0);
+/* Kompakt menü stilleri */
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  min-height: 55px;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
-/* Mobile menü geliştirmeleri */
-.site-nav .nav-trigger {
-  display: none;
+.site-header .wrapper {
+  max-width: calc(1200px - (30px * 2));
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 55px;
 }
 
-.site-nav .menu-icon {
-  display: none;
+.site-title {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  color: white !important;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
+.site-nav .trigger {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.site-nav .page-link {
+  color: white !important;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  background: rgba(255,255,255,0.1);
+}
+
+.site-nav .page-link:hover {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+  transform: translateY(-1px);
+}
+
+/* Mobile menü */
 @media (max-width: 600px) {
   .site-header .wrapper {
     flex-direction: column;
-    padding: 1rem 15px;
+    padding: 0.5rem 15px;
+    min-height: auto;
   }
   
   .site-title {
-    margin-bottom: 1rem;
-    font-size: 1.5rem !important;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem !important;
   }
   
   .site-nav .trigger {
-    flex-direction: column;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
   }
   
   .site-nav .page-link {
-    margin: 2px 0;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    padding: 4px 8px;
   }
 }
 
