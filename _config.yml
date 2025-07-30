@@ -4,6 +4,9 @@ description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görü
 baseurl: ""
 url: "https://muhendisdayanismasi.github.io"
 
+# Favicon
+favicon: "/favicon.svg"
+
 # GitHub Pages tema
 remote_theme: pages-themes/minima@v2.5.0
 # theme: minima
