@@ -1,16 +1,19 @@
 ---
 layout: page
-title: "Kampanya Hazırlanıyor"## 📬 **İletişim**
-
-Kampanya hakkında sorularınız varsa veya haberdar olmak isterseniz:
-
-**Gmail'den muhendisdayanismasi adresine yazabilirsiniz** ✅ *Aktif*ription: "Mühendis Dayanışması kampanyası yakında başlıyor"
+title: "Kampanya Hazırlanıyor"
+description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---
 
 # 🚧 Kampanya Hazırlanıyor
 
 **Mühendis Dayanışması kampanyası şu anda hazırlanma aşamasındadır.**
+
+## 📬 **İletişim**
+
+Kampanya hakkında sorularınız varsa veya haberdar olmak isterseniz:
+
+**Gmail'den muhendisdayanismasi adresine yazabilirsiniz** ✅ *Aktif*
 
 ## 📅 Yakında Gelecekler:
 
