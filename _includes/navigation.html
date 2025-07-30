@@ -1,14 +1,37 @@
-<!-- Cayman Navigation Component -->
-<nav class="site-nav" role="navigation">
-  <div class="nav-container">
-    <a class="nav-link nav-home" href="{{ '/' | relative_url }}">🏠 Ana Sayfa</a>
-    {% for page in site.header_pages %}
-      {% assign my_page = site.pages | where: "path", page | first %}
-      {% if my_page.title %}
-        <a class="nav-link" href="{{ my_page.url | relative_url }}">
-          {{ my_page.nav_title | default: my_page.title | escape }}
-        </a>
-      {% endif %}
-    {% endfor %}
+<!-- Professional Campaign Navigation -->
+<nav class="campaign-nav" role="navigation">
+  <div class="nav-wrapper">
+    <div class="nav-brand">
+      <a class="brand-link" href="{{ '/' | relative_url }}">
+        <i class="fas fa-fist-raised"></i>
+        <span class="brand-text">Mühendis Dayanışması</span>
+      </a>
+    </div>
+    
+    <div class="nav-menu">
+      <a class="nav-item nav-item-home" href="{{ '/' | relative_url }}">
+        <i class="fas fa-home"></i>
+        <span>Ana Sayfa</span>
+      </a>
+      {% for page in site.header_pages %}
+        {% assign my_page = site.pages | where: "path", page | first %}
+        {% if my_page.title %}
+          <a class="nav-item" href="{{ my_page.url | relative_url }}">
+            {% if my_page.nav_title == 'Manifesto' %}
+              <i class="fas fa-scroll"></i>
+            {% elsif my_page.nav_title == 'Yakında' %}
+              <i class="fas fa-calendar-alt"></i>
+            {% elsif my_page.nav_title == 'SSS' %}
+              <i class="fas fa-question-circle"></i>
+            {% elsif my_page.nav_title == 'İletişim' %}
+              <i class="fas fa-envelope"></i>
+            {% else %}
+              <i class="fas fa-file-alt"></i>
+            {% endif %}
+            <span>{{ my_page.nav_title | default: my_page.title | escape }}</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </nav>
