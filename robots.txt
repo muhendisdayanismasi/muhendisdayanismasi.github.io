@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://muhendisdayanismasi.github.io/sitemap.xml
+
+# Disallow specific files
+Disallow: /TODO.md
+Disallow: /.git/
+Disallow: /vendor/
+Disallow: /_site/

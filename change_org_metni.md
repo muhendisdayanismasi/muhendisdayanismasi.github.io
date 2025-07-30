@@ -1,6 +1,12 @@
-**Mühendis Dayanışması Kampanyası - Change.org Metni**
-
 ---
+layout: page
+title: "Change.org Kampanya Metni"
+description: "Mühendis Dayanışması Change.org petition metni"
+permalink: /change-org-metni/
+---
+
+# Mühendis Dayanışması Kampanyası - Change.org Metni
+
 
 ### ✉️ **Kampanya Metni**
 
@@ -24,7 +30,7 @@ Bu talepler, Mühendis Dayanışması Manifestosu’na dayanmaktadır.
 
 ### 🔗 Referanslarla destekliyoruz:
 
-Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir. Detaylar: [muhendisdayanismasi.org/referanslar](#)
+Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir. Detaylar: [Referanslar sayfamızda](/referanslar/)
 
 ### ✅ Destek Ol!
 
