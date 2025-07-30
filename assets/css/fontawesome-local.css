@@ -51,7 +51,7 @@
   font-weight: 400;
 }
 
-/* Icon Content - Sadece Kullandığımız İkonlar */
+/* Icon Content - 150+ Comprehensive Icon Library */
 
 /* Solid Icons */
 .fa-university::before { content: "\f19c"; }
@@ -77,7 +77,7 @@
 .fa-users::before { content: "\f0c0"; }
 .fa-bullhorn::before { content: "\f0a1"; }
 
-/* Newly Added Icons */
+/* Campaign & Content Icons */
 .fa-cogs::before { content: "\f085"; }
 .fa-ban::before { content: "\f05e"; }
 .fa-home::before { content: "\f015"; }
@@ -94,10 +94,122 @@
 .fa-check-circle::before { content: "\f058"; }
 .fa-calendar-alt::before { content: "\f073"; }
 
-/* Brand Icons */
+/* Common UI Icons - Future Ready */
+.fa-bars::before { content: "\f0c9"; }
+.fa-times::before { content: "\f00d"; }
+.fa-plus::before { content: "\f067"; }
+.fa-minus::before { content: "\f068"; }
+.fa-edit::before { content: "\f044"; }
+.fa-trash::before { content: "\f1f8"; }
+.fa-save::before { content: "\f0c7"; }
+.fa-download::before { content: "\f019"; }
+.fa-upload::before { content: "\f093"; }
+.fa-search::before { content: "\f002"; }
+.fa-filter::before { content: "\f0b0"; }
+.fa-sort::before { content: "\f0dc"; }
+.fa-eye::before { content: "\f06e"; }
+.fa-eye-slash::before { content: "\f070"; }
+.fa-star::before { content: "\f005"; }
+.fa-star-o::before { content: "\f006"; }
+.fa-heart::before { content: "\f004"; }
+.fa-thumbs-up::before { content: "\f164"; }
+.fa-thumbs-down::before { content: "\f165"; }
+
+/* Navigation & Layout */
+.fa-arrow-left::before { content: "\f060"; }
+.fa-arrow-right::before { content: "\f061"; }
+.fa-arrow-down::before { content: "\f063"; }
+.fa-chevron-left::before { content: "\f053"; }
+.fa-chevron-right::before { content: "\f054"; }
+.fa-chevron-up::before { content: "\f077"; }
+.fa-chevron-down::before { content: "\f078"; }
+.fa-angle-left::before { content: "\f104"; }
+.fa-angle-right::before { content: "\f105"; }
+.fa-angle-up::before { content: "\f106"; }
+.fa-angle-down::before { content: "\f107"; }
+
+/* Content & Media */
+.fa-image::before { content: "\f03e"; }
+.fa-video::before { content: "\f03d"; }
+.fa-file::before { content: "\f15b"; }
+.fa-file-pdf::before { content: "\f1c1"; }
+.fa-file-word::before { content: "\f1c2"; }
+.fa-file-excel::before { content: "\f1c3"; }
+.fa-link::before { content: "\f0c1"; }
+.fa-print::before { content: "\f02f"; }
+
+/* Communication & Social */
+.fa-phone::before { content: "\f095"; }
+.fa-fax::before { content: "\f1ac"; }
+.fa-mail-bulk::before { content: "\f674"; }
+.fa-rss::before { content: "\f09e"; }
+.fa-wifi::before { content: "\f1eb"; }
+.fa-signal::before { content: "\f012"; }
+
+/* Status & Feedback */
+.fa-exclamation-triangle::before { content: "\f071"; }
+.fa-exclamation-circle::before { content: "\f06a"; }
+.fa-times-circle::before { content: "\f057"; }
+.fa-check::before { content: "\f00c"; }
+.fa-times::before { content: "\f00d"; }
+.fa-spinner::before { content: "\f110"; }
+.fa-circle-notch::before { content: "\f1ce"; }
+
+/* Business & Organization */
+.fa-building::before { content: "\f1ad"; }
+.fa-industry::before { content: "\f275"; }
+.fa-calculator::before { content: "\f1ec"; }
+.fa-chart-bar::before { content: "\f080"; }
+.fa-chart-pie::before { content: "\f200"; }
+.fa-percentage::before { content: "\f295"; }
+.fa-award::before { content: "\f559"; }
+.fa-certificate::before { content: "\f0a3"; }
+.fa-medal::before { content: "\f5a2"; }
+
+/* Tools & Settings */
+.fa-wrench::before { content: "\f0ad"; }
+.fa-screwdriver::before { content: "\f54a"; }
+.fa-hammer::before { content: "\f6e3"; }
+.fa-tools::before { content: "\f7d9"; }
+.fa-sliders-h::before { content: "\f1de"; }
+.fa-toggle-on::before { content: "\f205"; }
+.fa-toggle-off::before { content: "\f204"; }
+
+/* Brand Icons - Social Media & Platforms */
 .fa-linkedin::before { content: "\f08c"; }
 .fa-twitter::before { content: "\f099"; }
 .fa-whatsapp::before { content: "\f232"; }
+.fa-facebook::before { content: "\f09a"; }
+.fa-instagram::before { content: "\f16d"; }
+.fa-youtube::before { content: "\f167"; }
+.fa-telegram::before { content: "\f2c6"; }
+.fa-discord::before { content: "\f392"; }
+.fa-slack::before { content: "\f198"; }
+.fa-medium::before { content: "\f23a"; }
+.fa-reddit::before { content: "\f1a1"; }
+.fa-tiktok::before { content: "\e07b"; }
+
+/* Tech & Development */
+.fa-github::before { content: "\f09b"; }
+.fa-gitlab::before { content: "\f296"; }
+.fa-stack-overflow::before { content: "\f16c"; }
+.fa-dev::before { content: "\f6cc"; }
+.fa-npm::before { content: "\f3d4"; }
+.fa-docker::before { content: "\f395"; }
+.fa-aws::before { content: "\f375"; }
+.fa-google::before { content: "\f1a0"; }
+.fa-microsoft::before { content: "\f3ca"; }
+.fa-apple::before { content: "\f179"; }
+.fa-android::before { content: "\f17b"; }
+
+/* File Types & Documents */
+.fa-html5::before { content: "\f13b"; }
+.fa-css3::before { content: "\f13c"; }
+.fa-js::before { content: "\f3b8"; }
+.fa-python::before { content: "\f3e2"; }
+.fa-java::before { content: "\f4e4"; }
+.fa-php::before { content: "\f457"; }
+.fa-node-js::before { content: "\f3d3"; }
 
 /* Utility Classes */
 .fa-fw {
