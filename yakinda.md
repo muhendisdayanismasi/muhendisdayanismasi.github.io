@@ -2,6 +2,7 @@
 layout: default
 title: "Kampanya Hazırlanıyor"
 nav_title: "Yakında"
+nav_icon: "fas fa-rocket"
 description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---

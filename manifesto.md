@@ -2,6 +2,7 @@
 layout: default
 title: "Mühendis Dayanışması Manifestosu"
 nav_title: "Manifesto"
+nav_icon: "fas fa-scroll"
 description: "Mühendislerin sosyal ve ekonomik haklarına dair temel ilkeler ve hedefler"
 permalink: /manifesto/
 ---

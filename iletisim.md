@@ -2,6 +2,7 @@
 layout: default
 title: "İletişim"
 nav_title: "İletişim"
+nav_icon: "fas fa-envelope"
 permalink: /iletisim/
 description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 ---

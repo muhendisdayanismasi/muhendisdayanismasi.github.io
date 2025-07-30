@@ -2,6 +2,7 @@
 layout: default
 title: "Sık Sorulan Sorular (SSS)"
 nav_title: "SSS"
+nav_icon: "fas fa-question-circle"
 description: "Mühendis Dayanışması kampanyası hakkında merak edilen sorular ve cevapları"
 permalink: /sss/
 ---

@@ -1,16 +1,32 @@
-<!-- SIMPLE TEST NAVIGATION -->
-<div style="background: red; padding: 20px; text-align: center; color: white; font-weight: bold;">
-  🔥 TEST NAVIGATION - EĞER BU GÖRÜNÜYORSا NAVIGATION ÇALIŞIYOR 🔥
-</div>
-
-<nav style="background: #f0f0f0; padding: 15px; text-align: center; border: 2px solid #333;">
-  <strong>📍 MÜHENDIS DAYANIŞMASI</strong> | 
-  {% for page in site.header_pages %}
-    {% assign my_page = site.pages | where: "path", page | first %}
-    {% if my_page.title %}
-      <a href="{{ my_page.url | relative_url }}" style="margin: 0 10px; color: blue; font-weight: bold;">
-        {{ my_page.nav_title | default: my_page.title | escape }}
+<!-- Modern Campaign Navigation -->
+<nav class="campaign-nav">
+  <div class="nav-wrapper">
+    <!-- Brand Section -->
+    <div class="nav-brand">
+      <a href="{{ '/' | relative_url }}" class="brand-link">
+        <i class="fas fa-fist-raised"></i>
+        <span class="brand-text">Mühendis Dayanışması</span>
       </a>
-    {% endif %}
-  {% endfor %}
+    </div>
+    
+    <!-- Navigation Menu -->
+    <div class="nav-menu">
+      {% for page_path in site.header_pages %}
+        {% assign my_page = site.pages | where: "path", page_path | first %}
+        {% if my_page.title %}
+          {% if page.url == my_page.url %}
+            <span class="nav-item nav-item-current">
+              <i class="{{ my_page.nav_icon | default: 'fas fa-file-alt' }}"></i>
+              <span>{{ my_page.nav_title | default: my_page.title | escape }}</span>
+            </span>
+          {% else %}
+            <a href="{{ my_page.url | relative_url }}" class="nav-item">
+              <i class="{{ my_page.nav_icon | default: 'fas fa-file-alt' }}"></i>
+              <span>{{ my_page.nav_title | default: my_page.title | escape }}</span>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </nav>
