@@ -5,26 +5,35 @@
 
 /* Mühendis Dayanışması - Gelişmiş CSS Layout */
 
-/* CSS Değişkenleri */
+/* CSS Değişkenleri - Kontrast Optimized */
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e74c3c;
+  --primary-color: #2c3e50;      /* Koyu mavi - text için mükemmel */
+  --secondary-color: #2980b9;     /* Daha koyu mavi - kontrast artırıldı */
+  --accent-color: #c0392b;        /* Daha koyu kırmızı - kontrast artırıldı */
   --success-color: #27ae60;
-  --text-color: #2c3e50;
+  --text-color: #2c3e50;          /* Ana text rengi */
+  --text-light: #5d6d7e;          /* İkincil text rengi */
   --bg-color: #ffffff;
-  --light-gray: #ecf0f1;
+  --bg-light: #f8f9fa;            /* Açık arkaplan */
+  --bg-section: #ecf0f1;          /* Section arkaplanları */
+  --border-color: #bdc3c7;        /* Border rengi */
   --border-radius: 8px;
-  --shadow: 0 2px 10px rgba(0,0,0,0.1);
+  --shadow: 0 2px 10px rgba(44, 62, 80, 0.15);
   --mobile-padding: 15px;
   --touch-target: 44px;
   --mobile-font-base: 16px;
+  
+  /* Kontrast kontrollü renkler */
+  --text-on-light: #2c3e50;       /* Açık arkaplan üzerinde text */
+  --text-on-dark: #ffffff;        /* Koyu arkaplan üzerinde text */
+  --link-color: #2980b9;          /* Link rengi - yeterli kontrast */
+  --link-hover: #c0392b;          /* Link hover */
 }
 
 /* Mobile First Base Styles */
 * {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(231, 76, 60, 0.2);
+  -webkit-tap-highlight-color: rgba(192, 57, 43, 0.2);
 }
 
 html {
@@ -37,8 +46,34 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   line-height: 1.6;
   color: var(--text-color) !important;
+  background-color: var(--bg-color) !important;
   margin: 0;
   padding: 0;
+  font-size: 1rem;
+}
+
+/* Link renkleri - kontrast optimized */
+a {
+  color: var(--link-color) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--secondary-color) !important;
+}
+
+/* Text hiyerarşisi */
+.text-muted {
+  color: var(--text-light) !important;
+}
+
+.text-on-dark {
+  color: var(--text-on-dark) !important;
 }
 
 .wrapper {
@@ -47,172 +82,115 @@ body {
   padding: 0 20px;
 }
 
-/* Header Stiller - Kompakt Menü */
+/* Header Stiller - Kontrast İyileştirilmiş */
 .site-header {
   background: linear-gradient(135deg, var(--primary-color), #34495e) !important;
   border-top: none !important;
-  border-bottom: 2px solid var(--accent-color) !important;
+  border-bottom: 3px solid var(--accent-color) !important;
   padding: 0 !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow);
   position: sticky;
   top: 0;
   z-index: 1000;
-}
-
-.site-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 20px;
   min-height: 60px;
 }
 
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .site-title, .site-title:visited {
-  color: white !important;
-  font-weight: bold !important;
-  font-size: 1.3rem;
+  color: var(--text-on-dark) !important;
+  font-weight: 700 !important;
+  font-size: 1.4rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: color 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
 .site-title:hover {
-  color: var(--accent-color) !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(255,255,255,0.3);
 }
 
-/* Menü Navigasyon - Kompakt */
-.site-nav {
-  position: relative;
-}
-
+/* Desktop Navigation - Kontrast İyileştirilmiş */
 .site-nav .trigger {
   display: flex;
-  gap: 4px;
+  gap: 12px;
+  align-items: center;
 }
 
 .site-nav .page-link {
-  color: white !important;
-  margin: 0;
+  color: var(--text-on-dark) !important;
   text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 15px;
-  transition: all 0.3s ease;
-  font-weight: 500;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-}
-
-.site-nav .page-link:hover {
-  background-color: var(--accent-color) !important;
-  color: white !important;
-  transform: translateY(-1px);
-}
-
-/* Kompakt menü stilleri */
-.site-header {
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  min-height: 55px;
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-
-.site-header .wrapper {
-  max-width: calc(1200px - (30px * 2));
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 55px;
-}
-
-.site-title {
-  font-size: 1.3rem !important;
-  font-weight: 700 !important;
-  color: white !important;
-  letter-spacing: 0.5px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
-}
-
-.site-nav .trigger {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  flex-wrap: wrap;
-}
-
-.site-nav .page-link {
-  color: white !important;
-  text-decoration: none;
-  padding: 6px 12px;
+  padding: 8px 16px;
   border-radius: 20px;
   transition: all 0.3s ease;
   font-weight: 500;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  background: rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .site-nav .page-link:hover {
   background-color: var(--accent-color) !important;
-  color: white !important;
+  color: var(--text-on-dark) !important;
+  border-color: var(--accent-color) !important;
   transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-shadow: none;
 }
 
-/* Mobile menü - İyileştirilmiş */
+/* Mobile Navigation - Kontrast İyileştirilmiş */
 @media (max-width: 768px) {
-  .site-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  }
-  
   .site-header .wrapper {
     flex-direction: column;
-    padding: 0.75rem 15px;
-    min-height: auto;
+    padding: 1rem 20px;
+    gap: 1rem;
   }
   
   .site-title {
-    margin-bottom: 0.75rem;
     font-size: 1.3rem !important;
-    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
   }
   
   .site-nav .trigger {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
   }
   
   .site-nav .page-link {
-    font-size: 0.8rem;
-    padding: 10px 12px;
     text-align: center;
-    min-height: 44px; /* Touch target minimum */
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: var(--text-on-dark) !important;
+    font-weight: 600;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   }
   
-  .site-nav .page-link:hover, .site-nav .page-link:focus {
+  .site-nav .page-link:hover, 
+  .site-nav .page-link:focus {
     background-color: var(--accent-color) !important;
-    transform: none; /* Mobilde transform kaldır */
-    box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);
-  }
-  
-  /* Mobile için body padding - fixed header için */
-  body {
-    padding-top: 120px;
+    color: var(--text-on-dark) !important;
+    border-color: var(--accent-color) !important;
+    transform: none;
+    box-shadow: 0 2px 8px rgba(192, 57, 43, 0.4);
+    text-shadow: none;
   }
 }
 
@@ -222,23 +200,62 @@ body {
   min-height: calc(100vh - 200px);
 }
 
-/* Başlık Stiller */
+/* Başlık Stiller - Typography İyileştirilmiş */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
+  color: var(--text-color);
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 h1 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--primary-color);
 }
 
 h2 {
   font-size: 2rem;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 3px solid var(--accent-color);
   padding-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+/* Paragraf ve text elementleri */
+p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+/* Strong ve emphasis */
+strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+em {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* List elementleri */
+ul, ol {
+  margin-bottom: 1.2rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--text-color);
 }
 
 /* Butonlar - Mobile First */
@@ -327,17 +344,29 @@ h2 {
   }
 }
 
-/* Call to Action */
+/* Call to Action - Kontrast İyileştirilmiş */
 .call-to-action {
   text-align: center;
   margin: 3rem 0;
-  padding: 2rem;
-  background: linear-gradient(135deg, var(--light-gray), #ffffff);
+  padding: 2.5rem 2rem;
+  background: var(--bg-section);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
 }
 
-/* Belge Kartları */
+.call-to-action h2, .call-to-action h3 {
+  color: var(--primary-color) !important;
+  margin-top: 0;
+}
+
+.call-to-action p {
+  color: var(--text-color) !important;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Belge Kartları - Kontrast İyileştirilmiş */
 .document-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -346,42 +375,53 @@ h2 {
 }
 
 .document-card {
-  background: white;
+  background: var(--bg-color);
   padding: 2rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
   border-left: 4px solid var(--accent-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .document-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(44, 62, 80, 0.15);
+  border-left-color: var(--secondary-color);
 }
 
 .document-card h3 {
   margin-top: 0;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
+  font-size: 1.3rem;
 }
 
 .document-card h3 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--primary-color) !important;
 }
 
 .document-card h3 a:hover {
-  color: var(--accent-color);
+  color: var(--accent-color) !important;
 }
 
-/* Paylaşım Widget - Mobile Optimized */
+.document-card p {
+  color: var(--text-light) !important;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Paylaşım Widget - Kontrast İyileştirilmiş */
 .paylasim-widget {
-  background: linear-gradient(135deg, var(--light-gray), #ffffff);
+  background: var(--bg-section);
   padding: 2rem;
   border-radius: var(--border-radius);
   margin: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow);
 }
 
 .paylasim-widget::before {
@@ -391,7 +431,7 @@ h2 {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(44, 62, 80, 0.1), transparent);
   transition: left 0.5s;
 }
 
@@ -402,25 +442,29 @@ h2 {
 .paylasim-baslik {
   font-size: 1.3rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   margin-bottom: 1.5rem;
   position: relative;
   z-index: 1;
 }
 
-/* Mobile için özel paylaşım buton stilleri */
+/* Mobile için özel paylaşım widget stilleri */
 @media (max-width: 768px) {
   .paylasim-widget {
     padding: 1.5rem;
-    margin: 1.5rem -15px; /* Full width mobile */
+    margin: 1.5rem -15px;
     border-radius: 0;
-    border-top: 3px solid var(--accent-color);
-    border-bottom: 3px solid var(--accent-color);
+    border-left: none;
+    border-right: none;
+    border-top: 4px solid var(--accent-color);
+    border-bottom: 4px solid var(--accent-color);
+    background: var(--bg-light);
   }
   
   .paylasim-baslik {
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
+    color: var(--primary-color) !important;
   }
 }
 
@@ -495,37 +539,50 @@ h2 {
   margin-top: 1rem;
 }
 
-/* Footer */
+/* Footer - Kontrast İyileştirilmiş */
 .site-footer {
   background-color: var(--primary-color) !important;
-  color: white !important;
-  border-top: 3px solid var(--accent-color) !important;
-  padding: 2rem 0;
+  color: var(--text-on-dark) !important;
+  border-top: 4px solid var(--accent-color) !important;
+  padding: 2.5rem 0;
   margin-top: 3rem;
+  box-shadow: 0 -2px 10px rgba(44, 62, 80, 0.1);
 }
 
 .footer-heading {
-  color: white !important;
-  font-size: 1.3rem;
+  color: var(--text-on-dark) !important;
+  font-size: 1.4rem;
+  font-weight: 700;
   margin-bottom: 1rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.footer-col {
+  margin-bottom: 1.5rem;
 }
 
 .footer-col a {
-  color: var(--light-gray) !important;
+  color: #ecf0f1 !important;
   text-decoration: none;
+  transition: color 0.3s ease;
+  opacity: 0.9;
 }
 
 .footer-col a:hover {
-  color: white !important;
+  color: var(--text-on-dark) !important;
+  opacity: 1;
+  text-shadow: 0 0 5px rgba(255,255,255,0.3);
 }
 
-/* Responsive Tasarım - Mobile First */
+.footer-col p {
+  color: #bdc3c7 !important;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Tasarım - Temizlenmiş */
 /* Küçük telefon ekranları */
 @media (max-width: 480px) {
-  body {
-    padding-top: 140px; /* Fixed header için daha fazla alan */
-  }
-  
   h1 {
     font-size: 1.8rem;
     line-height: 1.3;
@@ -538,13 +595,22 @@ h2 {
   }
   
   .wrapper {
-    padding: 0 12px;
+    padding: 0 15px;
+  }
+  
+  .site-nav .trigger {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .site-nav .page-link {
+    padding: 14px 20px;
+    font-size: 1rem;
   }
   
   .paylasim-widget {
     padding: 1.2rem;
     margin: 1.5rem 0;
-    border-radius: 8px;
   }
   
   .document-card {
@@ -552,26 +618,18 @@ h2 {
     margin-bottom: 1rem;
   }
   
-  .call-to-action {
-    padding: 1.2rem;
-    margin: 1.5rem 0;
-  }
-  
   .btn {
     display: block;
     margin: 8px 0;
-    text-align: center;
-    padding: 14px 20px; /* Daha büyük touch target */
+    padding: 14px 20px;
     font-size: 1rem;
     min-height: 48px;
   }
   
-  /* Platform butonları mobile optimizasyonu */
   .paylasim-butonlar {
     display: grid;
     grid-template-columns: 1fr;
     gap: 12px;
-    margin: 1rem 0;
   }
   
   .platform-buton {
@@ -579,28 +637,13 @@ h2 {
     min-height: 50px;
     font-size: 1rem;
     padding: 15px 20px;
-    border-radius: 12px;
-  }
-  
-  /* Site title mobile için daha kompakt */
-  .site-title {
-    font-size: 1.1rem !important;
-  }
-  
-  .site-nav .trigger {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
   }
 }
 
-/* Tablet boyutları için özel kurallar */
+/* Tablet boyutları */
 @media (min-width: 481px) and (max-width: 768px) {
-  body {
-    padding-top: 100px;
-  }
-  
   .document-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
   
@@ -610,25 +653,20 @@ h2 {
     gap: 15px;
   }
   
-  .site-nav .trigger {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
-  
   h1 {
     font-size: 2.2rem;
   }
 }
 
-/* Büyük tablet ve küçük desktop */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* Desktop ve büyük ekranlar */
+@media (min-width: 769px) {
   .wrapper {
-    max-width: 900px;
+    max-width: 1200px;
     padding: 0 30px;
   }
   
   .document-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
   
@@ -640,185 +678,81 @@ h2 {
   }
   
   .platform-buton {
-    min-width: 160px;
-  }
-  
-  /* Desktop navigation geri getir */
-  body {
-    padding-top: 0;
-  }
-  
-  .site-header {
-    position: sticky;
-  }
-  
-  .site-header .wrapper {
-    flex-direction: row;
-    padding: 0.5rem 30px;
-  }
-  
-  .site-nav .trigger {
-    display: flex;
-    gap: 8px;
-  }
-  
-  .site-title {
-    margin-bottom: 0;
+    min-width: 140px;
   }
 }
 
 /* ========================================
-   MOBILE-SPECIFIC FEATURES & ENHANCEMENTS
+   ERIŞILEBILIRLIK VE KONTRAST İYILEŞTIRMELERI
    ======================================== */
 
-/* Smooth scroll behavior */
+/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Pull-to-refresh indicator (mobile browsers) */
-@media (max-width: 768px) {
-  body {
-    overscroll-behavior: contain;
-  }
+/* Focus styles - WCAG uyumlu */
+*:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
 }
 
-/* Mobile-friendly focus styles */
+/* Button ve link focus states */
+.btn:focus,
+.platform-buton:focus,
+.site-nav .page-link:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Mobile specific improvements */
 @media (max-width: 768px) {
+  /* High contrast focus for mobile */
   *:focus {
     outline: 3px solid var(--accent-color);
-    outline-offset: 2px;
+    outline-offset: 1px;
   }
   
-  /* Hide focus on touch */
-  .js-focus-visible *:focus:not(.focus-visible) {
-    outline: none;
-  }
-}
-
-/* Mobile swipe gestures hint */
-.swipe-hint {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .swipe-hint {
-    display: block;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
-    margin: 1rem 0;
-    padding: 0.5rem;
-    background: rgba(52, 152, 219, 0.1);
-    border-radius: 4px;
-  }
-}
-
-/* Mobile loading states */
-.loading {
-  position: relative;
-  overflow: hidden;
-}
-
-.loading::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.7), transparent);
-  animation: loading 1.5s infinite;
-}
-
-@keyframes loading {
-  to {
-    left: 100%;
-  }
-}
-
-/* Mobile-specific animations */
-@media (max-width: 768px) {
-  /* Reduce animations on mobile to save battery */
+  /* Reduced animations for battery saving */
   * {
     animation-duration: 0.2s !important;
     transition-duration: 0.2s !important;
   }
   
-  /* But keep important feedback animations */
   .btn, .platform-buton, .document-card {
-    animation-duration: 0.3s !important;
     transition-duration: 0.3s !important;
   }
+  
+  /* Better text contrast on mobile */
+  body {
+    color: var(--text-color) !important;
+  }
+  
+  p, li {
+    color: var(--text-color) !important;
+  }
+  
+  .text-muted {
+    color: var(--text-light) !important;
+  }
 }
 
-/* Mobile-first typography scale */
-@media (max-width: 480px) {
+/* High contrast mode support */
+@media (prefers-contrast: high) {
   :root {
-    --mobile-font-base: 14px;
-  }
-  
-  body {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  p {
-    margin-bottom: 1.2rem;
-    line-height: 1.6;
-  }
-  
-  /* Better text readability on small screens */
-  .document-card p, 
-  .call-to-action p {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    --primary-color: #000000;
+    --text-color: #000000;
+    --accent-color: #800000;
+    --secondary-color: #000080;
+    --border-color: #000000;
   }
 }
 
-/* Landscape orientation mobile adjustments */
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  body {
-    padding-top: 80px;
-  }
-  
-  .site-header .wrapper {
-    padding: 0.4rem 15px;
-  }
-  
-  .site-nav .trigger {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .site-nav .page-link {
-    padding: 8px 10px;
-    font-size: 0.75rem;
-  }
-}
-
-/* High DPI screen optimizations */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .btn, .platform-buton {
-    border-width: 0.5px;
-  }
-}
-
-/* Mobile accessibility - large text support */
-@media (max-width: 768px) {
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-    }
-  }
-  
-  /* High contrast mode support */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-color: #1a1a1a;
-      --text-color: #ffffff;
-      --light-gray: #2a2a2a;
-    }
+/* Accessibility - reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

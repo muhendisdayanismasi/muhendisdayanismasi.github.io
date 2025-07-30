@@ -25,15 +25,12 @@ github_username: muhendisdayanismasi
 # twitter_username: TBD
 # linkedin_username: TBD
 
-# Navigasyon menüsü
+# Navigasyon menüsü - Kullanıcı odaklı
 header_pages:
   - manifesto.md
-  - sss.md
-  - referanslar.md
-  - kampanya_cercevesi.md
-  - iletisim.md
   - yakinda.md
-  - test.md
+  - sss.md
+  - iletisim.md
 
 # Plugins
 plugins:
