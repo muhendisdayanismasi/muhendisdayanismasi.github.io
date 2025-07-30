@@ -11,12 +11,45 @@ Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma k
 ## 🎯 Kampanyaya Katıl
 
 <div class="call-to-action">
-  <a href="/yakinda/" class="btn btn-primary">
-    � Kampanya Hazırlanıyor
-  </a>
-  <a href="/manifesto/" class="btn btn-secondary">
-    📜 Manifestoyu Oku
-  </a>
+  <div class="cta-content">
+    <h3>🚀 Değişim Zamanı Geldi!</h3>
+    <p>Mühendis haklarını birlikte savunalım. Kampanyamıza katıl, sesini duyur!</p>
+  </div>
+  
+  <div class="cta-buttons">
+    <a href="/yakinda/" class="btn btn-primary btn-large">
+      <span class="btn-icon">🔧</span>
+      <span class="btn-text">
+        <strong>Kampanya Hazırlanıyor</strong>
+        <small>Yakında başlıyoruz</small>
+      </span>
+    </a>
+    
+    <a href="/manifesto/" class="btn btn-secondary btn-large">
+      <span class="btn-icon">📜</span>
+      <span class="btn-text">
+        <strong>Manifestoyu Oku</strong>
+        <small>Taleplerimi öğren</small>
+      </span>
+    </a>
+  </div>
+  
+  <div class="cta-extras">
+    <div class="cta-stats">
+      <div class="stat-item">
+        <strong>🔥</strong>
+        <span>Aktif hazırlık</span>
+      </div>
+      <div class="stat-item">
+        <strong>✊</strong>
+        <span>Dayanışma</span>
+      </div>
+      <div class="stat-item">
+        <strong>🎯</strong>
+        <span>Değişim</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 ---

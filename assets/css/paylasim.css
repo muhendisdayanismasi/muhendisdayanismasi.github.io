@@ -1,14 +1,14 @@
-/* 📱 Paylaşım Widget Stilleri - Kontrast Optimized */
+/* 📱 Paylaşım Widget Stilleri - Maksimum Kontrast */
 .paylasim-widget {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
   border-radius: 12px;
   padding: 25px;
   margin: 30px 0;
   color: #ffffff;
-  box-shadow: 0 8px 25px rgba(44, 62, 80, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.2);
 }
 
 /* Mobile için özel stil */
@@ -16,11 +16,12 @@
   .paylasim-widget {
     margin: 20px -15px;
     border-radius: 0;
-    border-top: 4px solid #c0392b;
-    border-bottom: 4px solid #c0392b;
+    border-top: 4px solid #e74c3c;
+    border-bottom: 4px solid #e74c3c;
     padding: 25px 20px;
     border-left: none;
     border-right: none;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
   }
 }
 
@@ -59,7 +60,7 @@
 
 .platform-buton {
   background: rgba(255,255,255,0.15);
-  border: 2px solid rgba(255,255,255,0.25);
+  border: 2px solid rgba(255,255,255,0.3);
   border-radius: 10px;
   padding: 16px 12px;
   color: #ffffff !important;
@@ -67,8 +68,8 @@
   text-align: center;
   transition: all 0.3s ease;
   cursor: pointer;
-  font-size: 0.95em;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 800;
   min-height: 44px;
   display: flex;
   flex-direction: column;
@@ -77,19 +78,18 @@
   position: relative;
   overflow: hidden;
   -webkit-tap-highlight-color: rgba(255,255,255,0.1);
-  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 /* Desktop hover effects */
 @media (min-width: 769px) {
   .platform-buton:hover {
     background: rgba(255,255,255,0.25);
-    border-color: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0.5);
     transform: translateY(-2px);
     color: #ffffff !important;
     text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    text-shadow: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   }
 }
 
@@ -102,9 +102,11 @@
   
   .platform-buton {
     padding: 18px 15px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-radius: 12px;
-    font-weight: 700;
+    font-weight: 800;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.4);
   }
 }
 
@@ -128,21 +130,25 @@
 .genel-buton:hover { background: rgba(155,89,182,0.3); }
 
 .paylasim-mesaj {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.4);
   border-radius: 8px;
   padding: 15px;
   margin-top: 15px;
-  font-size: 0.9em;
+  font-size: 1rem;
   line-height: 1.6;
   min-height: 60px;
   border-left: 4px solid #e74c3c;
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
 .paylasim-bilgi {
   text-align: center;
-  font-size: 0.8em;
-  opacity: 0.8;
+  font-size: 0.9rem;
+  opacity: 0.95;
   margin-top: 10px;
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
 /* Mobil uyumluluk */
