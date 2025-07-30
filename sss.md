@@ -6,8 +6,6 @@ description: "Mühendis Dayanışması kampanyası hakkında merak edilen sorula
 permalink: /sss/
 ---
 
-# Sık Sorulan Sorular (SSS)
-
 ### ❓ Bu kampanya siyasi mi?
 **Hayır.** Kampanya herhangi bir partiyle ilişkili değildir. Hak temellidir. Mühendislerin çalışma koşullarına dair etik ve anayasal taleplerden oluşmaktadır.
 

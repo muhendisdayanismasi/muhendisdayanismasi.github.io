@@ -6,8 +6,6 @@ description: "Mühendislerin sosyal ve ekonomik haklarına dair temel ilkeler ve
 permalink: /manifesto/
 ---
 
-# Mühendis Dayanışması Manifestosu
-
 Biz mühendisler; geleceği tasarlayan, sistemleri inşa eden, altyapıyı kuran, dijitali yöneten, hayatın her alanına dokunan insanlarız. Ama çoğu zaman kendi hayatlarımızın kontrolünü elimizde tutamıyoruz.
 
 Bugün çok sayıda mühendis; uzun mesailere, belirsiz kariyer yollarına, adaletsiz maaş dağılımına ve etkisizleştirilmiş meslek odalarına mahkûm edilmiştir. Beyaz yakalı sıfatı altında gri gerçekler yaşamaktayız.

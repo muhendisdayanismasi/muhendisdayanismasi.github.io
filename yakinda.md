@@ -6,9 +6,7 @@ description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---
 
-# 🚧 Kampanya Hazırlanıyor
-
-**Mühendis Dayanışması kampanyası şu anda hazırlanma aşamasındadır.**
+🚧 **Mühendis Dayanışması kampanyası şu anda hazırlanma aşamasındadır.**
 
 ## 📬 **İletişim**
 

@@ -6,8 +6,6 @@ permalink: /iletisim/
 description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 ---
 
-# 📧 İletişim
-
 ## Kampanya Hakkında Bilgi Almak İçin
 
 **E-posta:** Gmail'den muhendisdayanismasi adresine ulaşabilirsiniz

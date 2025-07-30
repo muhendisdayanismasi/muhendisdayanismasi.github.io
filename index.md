@@ -4,9 +4,7 @@ title: "Mühendis Dayanışması"
 description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür kılmak için başlatılan kampanya"
 ---
 
-# ✊ Mühendis Dayanışması
-
-**Bizler, Türkiye'nin dört bir yanında çalışan mühendisler olarak sesimizi duyurmak istiyoruz.**
+✊ **Bizler, Türkiye'nin dört bir yanında çalışan mühendisler olarak sesimizi duyurmak istiyoruz.**
 
 Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma koşullarımızı tasarlayamıyoruz. Belirsiz maaş politikaları, uzun mesailer, kariyerde tıkanmışlık ve sessizleştirilmiş meslek yapıları artık kabul edilemez.
 
