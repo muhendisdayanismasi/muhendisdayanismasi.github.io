@@ -8,16 +8,16 @@ permalink: /kampanya-cercevesi/
 
 {% include navigation.html %}
 
-# Mühendis Dayanışması Kampanyası: Stratejik Çerçeve
+# <i class="fas fa-bullseye"></i> Mühendis Dayanışması Kampanyası: Stratejik Çerçeve
 
-### 🏛️ **1. Amaç ve Vizyon**
+## <i class="fas fa-rocket"></i> 1. Amaç ve Vizyon
 
 - **Amaç:** Türkiye'deki mühendislerin çalışma hayatındaki sorunlarına dikkat çekmek, dayanışma ruhunu yeniden inşa etmek ve uzun vadede sendikal bilinç oluşturmak.
 - **Vizyon:** Mühendislerin sadece teknik emekleriyle değil, aynı zamanda sosyal ve ekonomik haklarıyla da tanınan, saygı gören ve dayanışma içinde hareket eden bir topluluk haline gelmesi.
 
 ---
 
-### ✉️ **2. Temel Mesajlar (Ana Hatlar)**
+## <i class="fas fa-bullhorn"></i> 2. Temel Mesajlar (Ana Hatlar)
 
 - "Mühendis de emek üretir. Bu emeğin karşılığı adilce belirlenmelidir."
 - "TMMOB bir meslek odasıdır; sendika değildir. Toplu sözleşme hakkımız yok."
@@ -26,7 +26,7 @@ permalink: /kampanya-cercevesi/
 
 ---
 
-### 🔍 **3. Hedef Kitle**
+## <i class="fas fa-users"></i> 3. Hedef Kitle
 
 - Özel sektörde çalışan 25-45 yaş arası mühendisler
 - Yeni mezunlar ve akademisyenler

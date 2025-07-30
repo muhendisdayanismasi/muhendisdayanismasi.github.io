@@ -19,7 +19,7 @@ TMMOB bir **meslek odasıdır**, sendika değil. Toplu sözleşme hakkı yoktur.
 ---
 
 ### <i class="fas fa-question-circle"></i> Mühendisler beyaz yakalı sayılıyor, sendikaya gerek var mı?
-Beyaz yaka olmak, **hak talep etmeye engel değil**. Bir çok Avrupa ülkesinde mühendis sendikaları vardır. 🌍
+Beyaz yaka olmak, **hak talep etmeye engel değil**. Birçok Avrupa ülkesinde mühendis sendikaları vardır. 🌍
 
 ---
 

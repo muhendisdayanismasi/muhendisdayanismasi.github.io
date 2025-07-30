@@ -24,7 +24,7 @@ Bu nedenle sesimizi duyuruyoruz:
 ### <i class="fas fa-handshake"></i> "Temsil istiyoruz."
 
 - <i class="fas fa-university"></i> TMMOB bir meslek odasıdır, toplu sözleşme hakkı yoktur.
-- <i class="fas fa-bullhorn"></i> Mühendisler kendi kararlarında söz sahibi olabileceği, anayasal haklarla donatılmış bir yapıyı hak eder.
+- <i class="fas fa-bullhorn"></i> Mühendisler kendi kararlarında söz sahibi olabilecekleri, anayasal haklarla donatılmış bir yapıyı hak eder.
 
 ### <i class="fas fa-balance-scale"></i> "Adalet istiyoruz."
 

@@ -19,7 +19,7 @@ description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 Mühendis Dayanışması kampanyasına destek olmak istiyorsanız:
 
 - <i class="fas fa-scroll"></i> **Manifestoyu okuyun:** [Temel ilke ve taleplerimizi](/manifesto/) inceleyin
-- <i class="fas fa-share-alt"></i> **Sosyal medyada paylaşın:** Kampanya hazır olduğunda duyurularımızı takip edin
+- <i class="fas fa-share-alt"></i> **Sosyal medyada paylaşın:** Kampanyayı yaygınlaştırmak için duyurularımızı takip edin
 - <i class="fas fa-users"></i> **Çevrenizdeki meslektaşlarınızla konuşun:** Bu hareketin yaygınlaşması için
 
 ---

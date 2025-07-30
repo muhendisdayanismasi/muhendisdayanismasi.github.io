@@ -8,19 +8,19 @@ permalink: /referanslar/
 
 {% include navigation.html %}
 
-# Referanslar ve Açıklamalar
+# <i class="fas fa-book-open"></i> Referanslar ve Açıklamalar
 
 Bu belgede kampanyada geçen tüm iddiaların, taleplerin ve kavramların kaynakları yer almakta; her biri açıklamalı ve doğrudan erişilebilir biçimde sunulmaktadır.
 
 ---
 
-### 🔗 TMMOB - Yasal Statü ve Sınırları
+## <i class="fas fa-university"></i> TMMOB - Yasal Statü ve Sınırları
 - **Bağlantı:** [https://www.tmmob.org.tr/hukuk/yasal-cerceve](https://www.tmmob.org.tr/hukuk/yasal-cerceve)
 - **Açıklama:** TMMOB bir meslek odaları birliğidir. Kanunen mesleki denetim, ruhsat ve teknik gözetim yapar; çalışan haklarına dair toplu sözleşme yetkisi yoktur.
 
 ---
 
-### 🌎 Uluslararası Mühendis Sendikaları
+## <i class="fas fa-globe"></i> Uluslararası Mühendis Sendikaları
 
 #### 1. **Sveriges Ingenjörer (İsveç Mühendisleri Birliği)**
 - **Bağlantı:** [https://www.sverigesingenjorer.se](https://www.sverigesingenjorer.se)
@@ -36,7 +36,7 @@ Bu belgede kampanyada geçen tüm iddiaların, taleplerin ve kavramların kaynak
 
 ---
 
-### ⚖️ Hukuki Dayanaklar
+## <i class="fas fa-gavel"></i> Hukuki Dayanaklar
 
 #### 1. **T.C. Anayasası - Madde 51**
 - **Bağlantı:** [https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf)
@@ -48,12 +48,12 @@ Bu belgede kampanyada geçen tüm iddiaların, taleplerin ve kavramların kaynak
 
 ---
 
-### 🌎 Avrupa Mühendis Konfederasyonu (ECEC)
+## <i class="fas fa-users"></i> Avrupa Mühendis Konfederasyonu (ECEC)
 - **Bağlantı:** [https://www.ecec.net](https://www.ecec.net)
 - **Açıklama:** Avrupa'daki mühendis odalarının birliği. Mesleki hakların korunması, etik standartlar ve çalışma koşullarının iyileştirilmesi için çalışır.
 
 ---
 
 Bu belgede sunulan tüm kaynaklar, kampanya söyleminin meşruluğuna dayanak oluşturur.
-Taleplerimizin her biri ulusal ve uluslararası hukuk, meslek pratiği ve mevcut örneklerle uyumludur.
+Taleplerimizin her biri ulusal ve uluslararası hukuk, meslek pratiği ve mevcut örneklerle uyumludur. ✅
 
