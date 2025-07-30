@@ -5,6 +5,8 @@ Bu repo, Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür 
 ## 🌐 Canlı Site
 [muhendisdayanismasi.github.io](https://muhendisdayanismasi.github.io)
 
+*Paylaşım sistemi aktif - Her gün farklı mesajlar*
+
 ## 📚 Site İçeriği
 
 ### Kampanya Belgeleri
