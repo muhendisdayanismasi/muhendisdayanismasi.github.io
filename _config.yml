@@ -11,8 +11,8 @@ repository: "muhendisdayanismasi/muhendisdayanismasi.github.io"
 favicon: "/favicon.svg"
 
 # GitHub Pages tema
-remote_theme: pages-themes/minima@v2.5.0
-# theme: minima
+theme: minima
+# remote_theme: pages-themes/minima
 
 # Site ayarları
 lang: tr-TR
@@ -40,7 +40,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # Build ayarları
 markdown: kramdown
