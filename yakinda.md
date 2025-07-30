@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Kampanya Hazırlanıyor"
 nav_title: "Yakında"
 description: "Mühendis Dayanışması kampanyası yakında başlıyor"
 permalink: /yakinda/
 ---
+
+{% include navigation.html %}
 
 🚧 **Mühendis Dayanışması kampanyası şu anda hazırlanma aşamasındadır.**
 

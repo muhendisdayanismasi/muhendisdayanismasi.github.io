@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Kampanya Çerçevesi"
 nav_title: "Çerçeve"
 description: "Mühendis Dayanışması kampanyasının stratejik amaç ve vizyonu"
 permalink: /kampanya-cercevesi/
 ---
+
+{% include navigation.html %}
 
 # Mühendis Dayanışması Kampanyası: Stratejik Çerçeve
 

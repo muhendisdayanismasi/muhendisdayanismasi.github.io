@@ -3,8 +3,8 @@ source "https://rubygems.org"
 # GitHub Pages gem - tüm bağımlılıkları içerir
 gem "github-pages", "~> 228", group: :jekyll_plugins
 
-# GitHub Pages ile uyumlu Jekyll tema
-gem "minima", "~> 2.5"
+# Cayman tema - GitHub Pages native support
+# Cayman GitHub Pages'da otomatik destekleniyor, gem gerekmiyor
 
 # Faraday retry gem - GitHub Actions hatası için
 gem "faraday-retry"

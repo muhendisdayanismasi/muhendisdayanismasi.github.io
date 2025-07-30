@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Mühendis Dayanışması Manifestosu"
 nav_title: "Manifesto"
 description: "Mühendislerin sosyal ve ekonomik haklarına dair temel ilkeler ve hedefler"
 permalink: /manifesto/
 ---
+
+{% include navigation.html %}
 
 Biz mühendisler; geleceği tasarlayan, sistemleri inşa eden, altyapıyı kuran, dijitali yöneten, hayatın her alanına dokunan insanlarız. Ama çoğu zaman kendi hayatlarımızın kontrolünü elimizde tutamıyoruz.
 

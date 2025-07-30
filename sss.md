@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Sık Sorulan Sorular (SSS)"
 nav_title: "SSS"
 description: "Mühendis Dayanışması kampanyası hakkında merak edilen sorular ve cevapları"
 permalink: /sss/
 ---
+
+{% include navigation.html %}
 
 ### ❓ Bu kampanya siyasi mi?
 **Hayır.** Kampanya herhangi bir partiyle ilişkili değildir. Hak temellidir. Mühendislerin çalışma koşullarına dair etik ve anayasal taleplerden oluşmaktadır.

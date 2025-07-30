@@ -1,8 +1,10 @@
 ---
-layout: home
+layout: default
 title: "Mühendis Dayanışması"
 description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür kılmak için başlatılan kampanya"
 ---
+
+{% include navigation.html %}
 
 ✊ **Bizler, Türkiye'nin dört bir yanında çalışan mühendisler olarak sesimizi duyurmak istiyoruz.**
 

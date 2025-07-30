@@ -1,0 +1,85 @@
+# Mühendis Dayanışması - GitHub Pages Konfigürasyonu
+title: "Mühendis Dayanışması"
+description: "Türkiye'deki mühendislerin sosyal ve ekonomik haklarını görünür kılmak için başlatılan kampanya"
+baseurl: ""
+url: "https://muhendisdayanismasi.github.io"
+
+# Repository bilgisi (GitHub Actions için gerekli)
+repository: "muhendisdayanismasi/muhendisdayanismasi.github.io"
+
+# Favicon
+favicon: "/favicon.svg"
+
+# GitHub Pages tema
+theme: minima
+# remote_theme: pages-themes/minima
+
+# Site ayarları
+lang: tr-TR
+timezone: Europe/Istanbul
+
+# Sosyal medya ve iletişim
+github_username: muhendisdayanismasi
+# email: Gmail'den muhendisdayanismasi olarak ulaşabilirsiniz (manuel contact için)
+# Sosyal medya hesapları yakında aktif olacak
+# twitter_username: TBD
+# linkedin_username: TBD
+
+# Navigasyon menüsü - Kullanıcı odaklı
+header_pages:
+  - manifesto.md
+  - yakinda.md
+  - sss.md
+  - iletisim.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build ayarları - Performance Optimized
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+incremental: true
+profile: false
+
+# Cache settings for faster builds
+sass:
+  style: compressed
+  
+# Liquid optimizations
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# İçerik ayarları
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# SEO ve meta
+author: "Mühendis Dayanışması"
+logo: /assets/images/logo.png
+
+# Footer
+footer_content: "Mühendis Dayanışması © 2025. Bu proje açık kaynak olarak paylaşılmaktadır."
+
+# Exclude files - Performance optimized
+exclude:
+  - TODO.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore
+  - .github/
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - "*.tmp"
+  - "*.bak"
+  - .DS_Store
+  - Thumbs.db

@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: "İletişim"
 nav_title: "İletişim"
 permalink: /iletisim/
 description: "Mühendis Dayanışması kampanyası ile iletişime geçin"
 ---
+
+{% include navigation.html %}
 
 ## Kampanya Hakkında Bilgi Almak İçin
 
