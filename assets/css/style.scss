@@ -86,23 +86,26 @@ a:visited {
 
 /* Page header düzenleme - Cayman teması için */
 .page-header {
-  padding: 2rem 1rem 1.5rem 1rem !important;
+  padding: 1.5rem 1rem 1rem 1rem !important;
   background: linear-gradient(120deg, var(--primary-color), var(--secondary-color)) !important;
   min-height: auto !important;
+  margin-bottom: 0 !important;
 }
 
 .project-name {
-  margin-bottom: 0.5rem !important;
-  font-size: 2.25rem !important;
-  font-weight: 700 !important;
+  margin-bottom: 0.3rem !important;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
   color: var(--text-on-dark) !important;
+  line-height: 1.2;
 }
 
 .project-tagline {
-  margin-bottom: 1rem !important;
-  font-size: 1.15rem !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1rem !important;
   color: var(--text-on-dark) !important;
-  opacity: 0.9;
+  opacity: 0.85;
+  line-height: 1.3;
 }
 
 /* ======================================
@@ -178,11 +181,12 @@ a:visited {
 .nav-wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0.75rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 60px;
+  min-height: 64px;
+  gap: 1rem;
 }
 
 /* Brand Section */
@@ -269,6 +273,11 @@ a:visited {
 
 /* Tablet Navigation */
 @media (max-width: 1024px) {
+  .nav-wrapper {
+    min-height: 60px;
+    padding: 0.6rem 1rem;
+  }
+  
   .brand-text {
     display: inline;
     font-size: 1rem;
@@ -279,30 +288,31 @@ a:visited {
   }
   
   .nav-item {
-    padding: 0.7rem;
+    padding: 0.6rem;
     min-width: 44px;
     justify-content: center;
   }
   
   .nav-item i {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
   .nav-wrapper {
-    padding: 0 0.75rem;
+    padding: 0.5rem 0.75rem;
     min-height: 56px;
+    gap: 0.75rem;
   }
   
   .brand-link {
-    font-size: 1rem;
+    font-size: 0.95rem;
     gap: 0.5rem;
   }
   
   .brand-link i {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   
   .brand-text {
@@ -310,24 +320,30 @@ a:visited {
   }
   
   .nav-menu {
-    gap: 0.25rem;
+    gap: 0.3rem;
   }
   
   .nav-item {
-    padding: 0.6rem;
+    padding: 0.5rem;
     min-width: 40px;
   }
   
   .nav-item i {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
 /* Extra Small Mobile */
 @media (max-width: 480px) {
   .nav-wrapper {
-    padding: 0 0.5rem;
+    padding: 0.4rem 0.5rem;
     min-height: 52px;
+    gap: 0.5rem;
+  }
+  
+  .brand-link {
+    font-size: 0.9rem;
+    gap: 0.4rem;
   }
   
   .brand-text {
@@ -339,12 +355,12 @@ a:visited {
   }
   
   .nav-item {
-    padding: 0.5rem;
+    padding: 0.4rem;
     min-width: 36px;
   }
   
   .nav-item i {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 }
 

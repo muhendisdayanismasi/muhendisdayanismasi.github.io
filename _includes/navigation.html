@@ -9,10 +9,6 @@
     </div>
     
     <div class="nav-menu">
-      <a class="nav-item nav-item-home" href="{{ '/' | relative_url }}">
-        <i class="fas fa-home"></i>
-        <span>Ana Sayfa</span>
-      </a>
       {% for page in site.header_pages %}
         {% assign my_page = site.pages | where: "path", page | first %}
         {% if my_page.title %}
