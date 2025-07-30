@@ -253,17 +253,18 @@ a:visited {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color) !important;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 
 h1 {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
   color: var(--primary-color) !important;
 }
 
@@ -271,21 +272,23 @@ h1 {
 h2 {
   font-size: 2rem;
   border-bottom: 3px solid var(--accent-color);
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.8rem;
   color: var(--primary-color) !important;
 }
 
 
 h3 {
   font-size: 1.5rem;
+  margin-bottom: 1.3rem;
   color: var(--primary-color) !important;
 }
 
 /* Paragraf ve text elementleri */
 
 p {
-  margin-bottom: 1.2rem;
-  line-height: 1.7;
+  margin-bottom: 1.8rem;
+  line-height: 1.8;
   color: var(--text-color) !important;
   background: transparent !important;
 }
@@ -303,14 +306,14 @@ em {
 
 /* List elementleri */
 ul, ol {
-  margin-bottom: 1.2rem;
-  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  padding-left: 1.8rem;
 }
 
 
 li {
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
   color: var(--text-color) !important;
   background: transparent !important;
 }
@@ -619,8 +622,8 @@ li {
 .document-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: 2.5rem;
+  margin: 3rem 0;
 }
 
 .document-card {

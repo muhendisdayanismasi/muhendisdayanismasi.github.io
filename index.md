@@ -14,24 +14,24 @@ Her gün binlerce sistem, proje, altyapı geliştiriyoruz ama kendi çalışma k
 
 <div class="call-to-action">
   <div class="cta-content">
-    <h3>🚀 Değişim Zamanı Geldi!</h3>
-    <p>Mühendis haklarını birlikte savunalım. Kampanyamıza katıl, sesini duyur!</p>
+    <h3>✊ Harekete Katıl!</h3>
+    <p>Mühendis haklarını birlikte savunalım. Sesini duyur, değişimin parçası ol!</p>
   </div>
   
   <div class="cta-buttons">
-    <a href="/yakinda/" class="btn btn-primary btn-large">
-      <span class="btn-icon">🔧</span>
+    <a href="/manifesto/" class="btn btn-primary btn-large">
+      <span class="btn-icon">🔥</span>
       <span class="btn-text">
-        <strong>Kampanya Hazırlanıyor</strong>
-        <small>Yakında başlıyoruz</small>
+        <strong>Dayanışmaya Katıl</strong>
+        <small>Manifestoyu oku ve destek ver</small>
       </span>
     </a>
     
-    <a href="/manifesto/" class="btn btn-secondary btn-large">
-      <span class="btn-icon">📜</span>
+    <a href="/yakinda/" class="btn btn-secondary btn-large">
+      <span class="btn-icon">📢</span>
       <span class="btn-text">
-        <strong>Manifestoyu Oku</strong>
-        <small>Taleplerimi öğren</small>
+        <strong>Sesini Duyur</strong>
+        <small>Kampanya detaylarını keşfet</small>
       </span>
     </a>
   </div>
@@ -98,7 +98,7 @@ Bu talepler, [Mühendis Dayanışması Manifestosu](/manifesto/)'na dayanmaktad�
 
 <div class="paylasim-widget">
   <div class="paylasim-baslik">
-    💪 Haklarımız için birlikte ses verelim
+    🚀 Kampanyayı Yaygınlaştır - Haklarımız İçin Ses Ver
   </div>
   
   <div class="paylasim-butonlar">
@@ -151,7 +151,7 @@ Bu kampanya; mühendislerin, mimarların ve teknik uzmanların daha adil, şeffa
 
 Tüm iddialarımız, ulusal ve uluslararası belgeler, meslek kanunları ve çalışma hakkı bildirgeleriyle desteklenmektedir.
 
-**📍 Şu anda:** Kampanya hazırlık aşamasında - [Detaylar için yakında sayfasını ziyaret edin](/yakinda/)
+**📍 Şu anda:** Aktif kampanya dönemi - [Detaylar için yakında sayfasını ziyaret edin](/yakinda/)
 
 **📧 İletişim:** [İletişim sayfamızı ziyaret edin](/iletisim/)
 
